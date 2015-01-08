@@ -23,3 +23,15 @@
     margin-bottom: $margin;
     @include clearfix;
 }
+
+
+// -------------------------------------------------------------
+// # Category sections
+// -------------------------------------------------------------
+
+.category {
+    background: $grey;
+    padding: 13rem 0 10rem;
+
+    &:nth-child(even) { background: $white; }
+}

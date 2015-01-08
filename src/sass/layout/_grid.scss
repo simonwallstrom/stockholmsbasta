@@ -36,6 +36,7 @@ $grid-gutter-width:         percentage($grid-base-gutter-width / $grid-base-oute
     [class*='col-'] {
         margin-right: $grid-gutter-width;
         float: left;
+        min-height: 1px;
     }
 
     [class*='col-']:last-child {

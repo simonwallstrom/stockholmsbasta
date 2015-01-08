@@ -1,0 +1,40 @@
+//
+// NAV
+//
+
+
+.site-nav {
+    background: $black;
+    border-top: 1px solid lighten($black, 5%);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+
+    &.fixed {
+        position: fixed;
+        top: 0;
+    }
+
+    li {
+        display: inline-block;
+        margin-left: -4px;
+    }
+}
+
+.site-nav-link {
+    display: block;
+    padding: 1.8rem 2.5rem 1.5rem;
+    font-size: 1.4rem;
+    font-weight: $bold;
+    color: darken($white, 40%);
+}
+
+.site-nav-link--active, .site-nav-link:hover {
+    background: lighten($black, 5%);
+    color: $white;
+}

@@ -1,0 +1,61 @@
+//
+// ABOUT
+//
+
+
+// -------------------------------------------------------------
+// # The link
+// -------------------------------------------------------------
+
+.about-site-link {
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+    color: $white;
+    font-weight: $bold;
+}
+
+
+// -------------------------------------------------------------
+// # The content
+// -------------------------------------------------------------
+
+.about-site-content {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: $z-large;
+    background: $accent;
+    width: 44rem;
+    padding: 3rem 9rem 3rem 5rem;
+    transform: translate3d(44rem, 0, 0);
+    transition: .5s cubic-bezier(0.680, -0.550, 0.265, 1.550) transform;
+
+    &.show-about {
+        transform: translate3d(4rem, 0, 0);
+    }
+}
+
+
+// -------------------------------------------------------------
+// # Blocker for body
+// -------------------------------------------------------------
+
+.blocker {
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s all;
+    background: rgba(22, 23, 26, 0.75);
+    position: fixed;
+    z-index: $z-medium;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+
+    &.show-blocker {
+        opacity: 1;
+        visibility: visible;
+    }
+}

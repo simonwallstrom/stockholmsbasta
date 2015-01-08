@@ -6,10 +6,53 @@ html
         meta(name="description", content="")
         meta(name="viewport", content="width=device-width, initial-scale=1")
 
+        script(src="//use.typekit.net/qmb2dby.js")
+        script.
+            try{Typekit.load();}catch(e){}
+
         link(rel='stylesheet', href='css/app.css')
+        link(rel='stylesheet', href='http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css')
 
     body
 
-        .site
+        .blocker
 
-            block content
+        header.site-header
+
+            img.logo(src="images/logo.svg")
+            a.about-site-link(href="#") Om sidan
+
+            .about-site-content
+                h2.serif En okomplicerad guide för specifika tillfällen.
+                p Sidan är skapad av två webbdesigners som också råkar ha ett brinnande matintresse. Åsikterna är högst personliga men vi hoppas ändå att några av er kommer hitta en ny favoritrestaurang i vår ödmjuka lista.
+                //- p.small Dessa åsikter är helt våra egna och det kommer definitivt finnas de som hävdar att sitt lokala kebabhak är betydligt vassare. Det är helt ok. Vi hoppas dock att de flesta uppskattar våra tips.
+                hr
+                p.small Tycker du att vi har helt fel får du gärna höra av dig och förklara varför. Du kan nå oss på hej@stockholmsbasta.se
+                p.small
+                    | Skapad av Simon Wallström och Gustav Wicklen
+
+            .hero-content
+                h1.hero-title.text-center
+                    span.hero-title-where Stockholms bästa
+                    span.hero-title-what
+                p.hero-desc.text-center
+                    | Guiden som listar den bästa maten inom en rad utvalda kategorier.
+                    br
+                    | En kategori, en vinnare. Ta reda på vilken mat som är Stockholms bästa.
+                p.text-center
+                    a.btn.btn--primary(href="#") Gå till listan
+
+            ul.site-nav
+                li: a.site-nav-link(href="#", data-scroll="top") Hamburgare
+                li: a.site-nav-link(href="#") Sushi
+                li: a.site-nav-link(href="#") Kebab
+                li: a.site-nav-link(href="#") Sydostasiatiska
+                li: a.site-nav-link(href="#") Falafel
+                li: a.site-nav-link(href="#") Ramen
+                li: a.site-nav-link(href="#") Pizza
+                li: a.site-nav-link(href="#") Vegetariska
+
+        block content
+
+        script(src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
+        script(src="/js/app.js")

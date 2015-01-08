@@ -1,0 +1,21 @@
+//
+// Buttons
+//
+
+
+.btn {
+    display: inline-block;
+    padding: 1.8rem 4rem 1.5rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+    border-radius: 2px;
+}
+
+.btn--primary {
+    background: $accent;
+    color: $black;
+
+    &:hover {
+        background: darken($accent, 12%);
+    }
+}
