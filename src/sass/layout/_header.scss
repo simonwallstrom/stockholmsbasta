@@ -6,14 +6,21 @@
 .site-header {
     background: url('/images/hero-bg.jpg') center;
     background-size: cover;
-    padding: 1px;
 }
 
 .logo {
-    position: absolute;
-    top: 5rem;
-    left: 5rem;
-    width: 160px;
+    display: block;
+    width: 100px;
+    padding-top: 3rem;
+    margin: 0 auto;
+
+    @include bp(medium) {
+        position: absolute;
+        top: 5rem;
+        left: 5rem;
+        width: 160px;
+        padding-top: 0;
+    }
 }
 
 .hero-title {
@@ -26,7 +33,13 @@
 }
 
 .hero-desc {
-    font-size: 2.2rem;
-    margin: 3rem auto 4.5rem;
+    font-size: 1.6rem;
+    margin: 1rem 2rem 1.5rem;
     color: $white;
+
+    @include bp(medium) {
+        font-size: 2.2rem;
+        margin: 3rem auto 4.5rem;
+        span:first-child { display: block; }
+    }
 }

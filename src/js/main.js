@@ -29,21 +29,32 @@
     });
 
     // Close about site
-    $('.blocker').on('click', function() {
-        $(this).removeClass('show-blocker');
+    $('.blocker, .about-site-link-close').on('click', function() {
+        $('.blocker').removeClass('show-blocker');
         $('.about-site-content').removeClass('show-about');
+        return false;
     });
 
 
     // -------------------------------------------------------------
-    // # Dynamic height for hero section
+    // # Dynamic height for hero section - Not used on mobile
     // -------------------------------------------------------------
 
     function setHeight() {
         var windowHeight = $(window).innerHeight();
-        $('.site-header').css('min-height', windowHeight);
-        $('.hero-title').css('paddingTop', windowHeight/2 - 130);
+
+        if (window.matchMedia('(min-width: 850px)').matches) {
+        
+            $('.site-header').css('height', windowHeight);
+            $('.hero-title').css('paddingTop', windowHeight/2 - 130);
+        }
+        if (window.matchMedia('(max-width: 850px)').matches) {
+        
+            $('.site-header').css('height', 'auto');
+            $('.hero-title').css('paddingTop', '3rem');
+        }
     }
+
     setHeight();
     
     $(window).resize(function() {

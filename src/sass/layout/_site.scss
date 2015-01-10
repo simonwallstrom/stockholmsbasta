@@ -31,7 +31,9 @@
 
 .category {
     background: $grey;
-    padding: 13rem 0 10rem;
+    padding: 5rem 0 2rem;
 
     &:nth-child(even) { background: $white; }
+
+    @include bp(medium) { padding: 13rem 0 10rem; }
 }

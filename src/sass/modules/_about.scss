@@ -7,12 +7,17 @@
 // # The link
 // -------------------------------------------------------------
 
-.about-site-link {
-    position: absolute;
-    top: 5rem;
-    right: 5rem;
-    color: $white;
-    font-weight: $bold;
+a.about-site-link {
+    // display: none;
+
+    @include bp(medium) {
+        display: block;
+        position: absolute;
+        top: 5rem;
+        right: 5rem;
+        color: $white;
+        font-weight: $bold;
+    }
 }
 
 
@@ -22,18 +27,26 @@
 
 .about-site-content {
     position: fixed;
-    right: 0;
+    right: -34rem;
     top: 0;
     bottom: 0;
     z-index: $z-large;
     background: $accent;
-    width: 44rem;
-    padding: 3rem 9rem 3rem 5rem;
-    transform: translate3d(44rem, 0, 0);
+    width: 34rem;
+    padding: 1rem 6rem 1.5rem 2rem;
+    //transform: translate3d(44rem, 0, 0);
     transition: .5s cubic-bezier(0.680, -0.550, 0.265, 1.550) transform;
 
+    @include bp(medium) {
+        right: -44rem;
+        width: 44rem;
+        padding: 3rem 9rem 3rem 5rem;
+    }
+
     &.show-about {
-        transform: translate3d(4rem, 0, 0);
+        transform: translate3d(-30rem, 0, 0);
+
+        @include bp(medium) { transform: translate3d(-40rem, 0, 0); }
     }
 }
 
