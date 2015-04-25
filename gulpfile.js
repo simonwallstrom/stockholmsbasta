@@ -63,7 +63,7 @@ var dest = {
 // Deploy
 var deploy = {
     path: basePath.dest + '**/*.*',
-    branch: "gh-pages"
+    branch: 'gh-pages'
 };
 
 // Error handling
