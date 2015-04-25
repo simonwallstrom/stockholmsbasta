@@ -1,57 +1,258 @@
-var gulp = require('gulp'),
-    sass = require('gulp-sass'),
-    jade = require('gulp-jade'),
-    autoprefixer = require('gulp-autoprefixer'),
-    concat = require('gulp-concat'),
-    livereload = require('gulp-livereload'),
-    connect = require('gulp-connect'),
-    svgmin = require('gulp-svgmin');
+//
+// GULPFILE
+//
 
-gulp.task('styles', function() {
-    return gulp.src('src/sass/app.scss')
-        .pipe(sass({ style: 'expanded' }))
+
+// TASKS
+// 1. `gulp` - Default task to build and run server
+// 2. `gulp prod` - Minify everything to get ready for deploy
+// 3. `gulp deploy` - Deploy to gh-pages
+
+// -------------------------------------------------------------
+// # Import plugins
+// -------------------------------------------------------------
+
+var gulp            = require('gulp'),
+    jade            = require('gulp-jade'),
+    marked          = require('marked'),
+    sass            = require('gulp-sass'),
+    scsslint        = require('gulp-scss-lint'),
+    autoprefixer    = require('gulp-autoprefixer'),
+    minifyCSS       = require('gulp-minify-css'),
+    js              = require('browserify'),
+    concat          = require('gulp-concat'),
+    uglify          = require('gulp-uglify'),
+    jshint          = require('gulp-jshint'),
+    source          = require('vinyl-source-stream'),
+    buffer          = require('vinyl-buffer'),
+    imagemin        = require('gulp-imagemin'),
+    jpegoptim       = require('imagemin-jpegoptim'),
+    changed         = require('gulp-changed'),
+    browserSync     = require('browser-sync'),
+    gutil           = require("gulp-util"),
+    notify          = require("gulp-notify"),
+    del             = require('del'),
+    sizereport      = require('gulp-sizereport'),
+    runSequence     = require('run-sequence'),
+    deploy          = require('gulp-gh-pages');
+
+
+// -------------------------------------------------------------
+// # Config
+// -------------------------------------------------------------
+
+var basePath = {
+    src:    './src/',
+    dest:   './build/'
+};
+
+var src = {
+    jade:   [basePath.src + 'jade/**/*.jade', '!' + basePath.src + 'jade/layouts/**'],
+    sass:   basePath.src + 'assets/sass/',
+    js:     basePath.src + 'assets/js/',
+    img:    basePath.src + 'assets/img/*'
+};
+
+var dest = {
+    jade:   basePath.dest,
+    sass:   basePath.dest + 'css/',
+    js:     basePath.dest + 'js/',
+    img:    basePath.dest + 'img/'
+};
+
+// Deploy
+var deploy = {
+    path: basePath.dest + '**/*.*',
+    branch: "gh-pages"
+};
+
+// Error handling
+var handleError = function(err) {
+    gutil.log(gutil.colors.red.bold(
+        '\n\n\n' + err + '\n\n'
+    ));
+    return notify().write('BUILD FAILED!\nCheck terminal for error message.');
+};
+
+
+// -------------------------------------------------------------
+// # Jade
+// -------------------------------------------------------------
+
+gulp.task('jade', function() {
+    return gulp.src(src.jade)
+        .pipe(jade({
+            pretty: false
+        }))
+        .on('error', handleError)
+        .pipe(gulp.dest(dest.jade))
+        // .pipe(connect.reload());
+        .pipe(browserSync.reload({stream:true}));
+});
+
+
+// -------------------------------------------------------------
+// # SASS
+// -------------------------------------------------------------
+
+gulp.task('scss-lint', function() {
+  gulp.src(src.sass + '**/*')
+    .pipe(scsslint());
+});
+
+gulp.task('sass', function() {
+    return gulp.src(src.sass + 'app.scss')
+        .pipe(sass({
+            outputStyle: 'expanded',
+            errLogToConsole: true,
+            // onError: handleError // Broken in latest gulp-sass
+        }))
         .pipe(autoprefixer('last 2 version'))
-        .pipe(gulp.dest('build/css'))
-        .pipe(connect.reload());
+        .pipe(gulp.dest(dest.sass))
+        .pipe(browserSync.reload({stream:true}));
+        // .pipe(connect.reload());
 });
 
-gulp.task('content', function() {
-    gulp.src(['src/jade/**/*.jade', '!src/jade/layouts/**'])
-        .pipe(jade({ pretty: true }))
-        .pipe(gulp.dest('build'))
-        .pipe(connect.reload());
+gulp.task('sassProd', ['sass'], function() {
+    return gulp.src(dest.sass + 'app.css')
+        .pipe(minifyCSS())
+        .pipe(gulp.dest(dest.sass));
 });
 
-gulp.task('scripts', function() {
-    gulp.src(['src/js/typed.js', 'src/js/main.js'])
+
+// -------------------------------------------------------------
+// # JS
+// -------------------------------------------------------------
+
+gulp.task('jshint', function () {
+    gulp.src([src.js + 'app.js'])
+        .pipe(jshint())
+        .pipe(jshint.reporter('jshint-stylish'))
+        .pipe(jshint.reporter('fail'))
+        .on('error', handleError);
+
+});
+
+gulp.task('js', function() {
+    return gulp.src(['./node_modules/jquery/dist/jquery.js', './node_modules/typed.js/dist/typed.min.js', src.js + 'app.js'])
         .pipe(concat('app.js'))
-        .pipe(gulp.dest('build/js'));
+        .pipe(gulp.dest('dist'))
+        .pipe(uglify())
+        .pipe(gulp.dest(dest.js));
 });
 
-gulp.task('images', function() {
-    return gulp.src('src/images/*.svg')
-        .pipe(svgmin())
-        .pipe(gulp.dest('build/images'))
-        .pipe(connect.reload());
+gulp.task('jsProd', ['jshint', 'js'], function() {
+    return gulp.src(dest.js + 'app.js')
+        .pipe(uglify())
+        .pipe(gulp.dest(dest.js));
 });
 
-gulp.task('copy', function() {
-    gulp.src(['src/images/*.png','src/images/*.jpg'])
-    .pipe(gulp.dest('build/images'));
+
+// -------------------------------------------------------------
+// # img
+// -------------------------------------------------------------
+
+gulp.task('img', function () {
+    return gulp.src(src.img)
+        .pipe(changed(dest.img))
+        .pipe(imagemin({
+            progressive: true,
+            svgoPlugins: [{removeViewBox: false}]
+        }))
+        .pipe(gulp.dest(dest.img));
 });
 
-gulp.task('connect', function() {
-    connect.server({
-        root: 'build/',
-        livereload: true
+gulp.task('jpeg', function () {
+    return gulp.src(src.img)
+        .pipe(jpegoptim({max: 70}))
+        .pipe(gulp.dest(dest.img));
+});
+
+
+// -------------------------------------------------------------
+// # BrowserSync
+// -------------------------------------------------------------
+
+gulp.task('browserSync', function() {
+    browserSync({
+        server: {
+            baseDir: basePath.dest,
+        },
+        notify: false,
+        open: false
     });
 });
 
-gulp.task('watch', function() {
-    gulp.watch('src/sass/**/*.scss', ['styles']);
-    gulp.watch('src/jade/**/*.jade', ['content']);
-    gulp.watch('src/js/**/*.js', ['scripts']);
-    gulp.watch('src/images/*.svg', ['images']);
+
+// -------------------------------------------------------------
+// # Watch
+// -------------------------------------------------------------
+
+gulp.task('watch', ['browserSync'], function(callback) {
+    gulp.watch(src.sass + '**/*.scss', ['sass']);
+    gulp.watch(src.js + '**/*.js', ['jshint' ,'js']);
+    gulp.watch(src.jade, ['jade']);
 });
 
-gulp.task('default', ['styles', 'content', 'scripts', 'images', 'copy', 'connect', 'watch']);
+
+// -------------------------------------------------------------
+// # Clean
+// -------------------------------------------------------------
+
+gulp.task('clean', function (cb) {
+    del(basePath.dest + '**', cb);
+});
+
+
+// -------------------------------------------------------------
+// # Report
+// -------------------------------------------------------------
+
+gulp.task('report', ['jade', 'sassProd', 'jsProd', 'img'], function () {
+    return gulp.src(basePath.dest + '**/*')
+        .pipe(sizereport());
+});
+
+// -------------------------------------------------------------
+// # Default task - run `gulp`
+// -------------------------------------------------------------
+
+gulp.task('default', ['clean'], function (cb) {
+    runSequence([
+        'jade',
+        'sass',
+        'jshint',
+        'js',
+        'img',
+        'browserSync',
+        'watch'
+    ], cb);
+});
+
+
+// -------------------------------------------------------------
+// # Production task - run `gulp prod`
+// -------------------------------------------------------------
+
+gulp.task('prod', ['clean'], function (cb) {
+    runSequence([
+        'jade',
+        'sassProd',
+        'jsProd',
+        'img',
+        'browserSync',
+        'report'
+    ], function() {
+        console.log(cb);
+    });
+});
+
+
+// -------------------------------------------------------------
+// # Deploy task - run `gulp deploy`
+// -------------------------------------------------------------
+
+gulp.task('deploy', function () {
+    gulp.src(deploy.path)
+        .pipe(deploy(deploy.branch));
+});

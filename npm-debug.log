@@ -1,0 +1,3093 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'cache', 'clean' ]
+2 info using npm@2.3.0
+3 info using node@v0.10.35
+4 verbose node symlink /usr/local/bin/node
+5 silly ls normalized .
+6 verbose gentlyRm vacuuming /Users/sw/.npm/Base64
+7 verbose gentlyRm vacuuming /Users/sw/.npm/CSSselect
+8 verbose gentlyRm vacuuming /Users/sw/.npm/CSSwhat
+9 verbose gentlyRm vacuuming /Users/sw/.npm/JSONStream
+10 verbose gentlyRm vacuuming /Users/sw/.npm/_git-remotes
+11 verbose gentlyRm vacuuming /Users/sw/.npm/_locks
+12 verbose gentlyRm vacuuming /Users/sw/.npm/abbrev
+13 verbose gentlyRm vacuuming /Users/sw/.npm/accepts
+14 verbose gentlyRm vacuuming /Users/sw/.npm/acorn
+15 verbose gentlyRm vacuuming /Users/sw/.npm/acorn-globals
+16 verbose gentlyRm vacuuming /Users/sw/.npm/addr-to-ip-port
+17 verbose gentlyRm vacuuming /Users/sw/.npm/adm-zip
+18 verbose gentlyRm vacuuming /Users/sw/.npm/after
+19 verbose gentlyRm vacuuming /Users/sw/.npm/airplay-js
+20 verbose gentlyRm vacuuming /Users/sw/.npm/amdefine
+21 verbose gentlyRm vacuuming /Users/sw/.npm/angular
+22 verbose gentlyRm vacuuming /Users/sw/.npm/angular-route
+23 verbose gentlyRm vacuuming /Users/sw/.npm/angular-sanitize
+24 verbose gentlyRm vacuuming /Users/sw/.npm/angular-touch
+25 verbose gentlyRm vacuuming /Users/sw/.npm/angular-ui-router
+26 verbose gentlyRm vacuuming /Users/sw/.npm/ansi-regex
+27 verbose gentlyRm vacuuming /Users/sw/.npm/ansi-styles
+28 verbose gentlyRm vacuuming /Users/sw/.npm/ansicolors
+29 verbose gentlyRm vacuuming /Users/sw/.npm/archive-type
+30 verbose gentlyRm vacuuming /Users/sw/.npm/archy
+31 verbose gentlyRm vacuuming /Users/sw/.npm/argh
+32 verbose gentlyRm vacuuming /Users/sw/.npm/argparse
+33 verbose gentlyRm vacuuming /Users/sw/.npm/array-differ
+34 verbose gentlyRm vacuuming /Users/sw/.npm/array-filter
+35 verbose gentlyRm vacuuming /Users/sw/.npm/array-map
+36 verbose gentlyRm vacuuming /Users/sw/.npm/array-reduce
+37 verbose gentlyRm vacuuming /Users/sw/.npm/array-union
+38 verbose gentlyRm vacuuming /Users/sw/.npm/array-uniq
+39 verbose gentlyRm vacuuming /Users/sw/.npm/arraybuffer.slice
+40 verbose gentlyRm vacuuming /Users/sw/.npm/asap
+41 verbose gentlyRm vacuuming /Users/sw/.npm/ascli
+42 verbose gentlyRm vacuuming /Users/sw/.npm/asn1
+43 verbose gentlyRm vacuuming /Users/sw/.npm/asn1.js
+44 verbose gentlyRm vacuuming /Users/sw/.npm/asn1.js-rfc3280
+45 verbose gentlyRm vacuuming /Users/sw/.npm/assert
+46 verbose gentlyRm vacuuming /Users/sw/.npm/assert-plus
+47 verbose gentlyRm vacuuming /Users/sw/.npm/ast-query
+48 verbose gentlyRm vacuuming /Users/sw/.npm/astw
+49 verbose gentlyRm vacuuming /Users/sw/.npm/async
+50 verbose gentlyRm vacuuming /Users/sw/.npm/async-each
+51 verbose gentlyRm vacuuming /Users/sw/.npm/async-each-series
+52 verbose gentlyRm vacuuming /Users/sw/.npm/autoprefixer
+53 verbose gentlyRm vacuuming /Users/sw/.npm/autoprefixer-core
+54 verbose gentlyRm vacuuming /Users/sw/.npm/aws-sign
+55 verbose gentlyRm vacuuming /Users/sw/.npm/aws-sign2
+56 verbose gentlyRm vacuuming /Users/sw/.npm/backo2
+57 verbose gentlyRm vacuuming /Users/sw/.npm/balanced-match
+58 verbose gentlyRm vacuuming /Users/sw/.npm/base64-arraybuffer
+59 verbose gentlyRm vacuuming /Users/sw/.npm/base64-js
+60 verbose gentlyRm vacuuming /Users/sw/.npm/base64-url
+61 verbose gentlyRm vacuuming /Users/sw/.npm/base64id
+62 verbose gentlyRm vacuuming /Users/sw/.npm/base64url
+63 verbose gentlyRm vacuuming /Users/sw/.npm/basic-auth
+64 verbose gentlyRm vacuuming /Users/sw/.npm/basic-auth-connect
+65 verbose gentlyRm vacuuming /Users/sw/.npm/batch
+66 verbose gentlyRm vacuuming /Users/sw/.npm/beeper
+67 verbose gentlyRm vacuuming /Users/sw/.npm/benchmark
+68 verbose gentlyRm vacuuming /Users/sw/.npm/bencode
+69 verbose gentlyRm vacuuming /Users/sw/.npm/better-assert
+70 verbose gentlyRm vacuuming /Users/sw/.npm/bin-build
+71 verbose gentlyRm vacuuming /Users/sw/.npm/bin-check
+72 verbose gentlyRm vacuuming /Users/sw/.npm/bin-version
+73 verbose gentlyRm vacuuming /Users/sw/.npm/bin-version-check
+74 verbose gentlyRm vacuuming /Users/sw/.npm/bin-wrapper
+75 verbose gentlyRm vacuuming /Users/sw/.npm/binary
+76 verbose gentlyRm vacuuming /Users/sw/.npm/binaryextensions
+77 verbose gentlyRm vacuuming /Users/sw/.npm/bitfield
+78 verbose gentlyRm vacuuming /Users/sw/.npm/bittorrent-dht
+79 verbose gentlyRm vacuuming /Users/sw/.npm/bittorrent-protocol
+80 verbose gentlyRm vacuuming /Users/sw/.npm/bittorrent-swarm
+81 verbose gentlyRm vacuuming /Users/sw/.npm/bittorrent-tracker
+82 verbose gentlyRm vacuuming /Users/sw/.npm/bl
+83 verbose gentlyRm vacuuming /Users/sw/.npm/blob
+84 verbose gentlyRm vacuuming /Users/sw/.npm/block-stream
+85 verbose gentlyRm vacuuming /Users/sw/.npm/bluebird
+86 verbose gentlyRm vacuuming /Users/sw/.npm/bn.js
+87 verbose gentlyRm vacuuming /Users/sw/.npm/body-parser
+88 verbose gentlyRm vacuuming /Users/sw/.npm/boom
+89 verbose gentlyRm vacuuming /Users/sw/.npm/bower
+90 verbose gentlyRm vacuuming /Users/sw/.npm/bower-config
+91 verbose gentlyRm vacuuming /Users/sw/.npm/bower-endpoint-parser
+92 verbose gentlyRm vacuuming /Users/sw/.npm/bower-json
+93 verbose gentlyRm vacuuming /Users/sw/.npm/bower-logger
+94 verbose gentlyRm vacuuming /Users/sw/.npm/bower-registry-client
+95 verbose gentlyRm vacuuming /Users/sw/.npm/brace-expansion
+96 verbose gentlyRm vacuuming /Users/sw/.npm/brorand
+97 verbose gentlyRm vacuuming /Users/sw/.npm/browser-pack
+98 verbose gentlyRm vacuuming /Users/sw/.npm/browser-resolve
+99 verbose gentlyRm vacuuming /Users/sw/.npm/browser-sync
+100 verbose gentlyRm vacuuming /Users/sw/.npm/browser-sync-client
+101 verbose gentlyRm vacuuming /Users/sw/.npm/browser-sync-ui
+102 verbose gentlyRm vacuuming /Users/sw/.npm/browserify
+103 verbose gentlyRm vacuuming /Users/sw/.npm/browserify-aes
+104 verbose gentlyRm vacuuming /Users/sw/.npm/browserify-rsa
+105 verbose gentlyRm vacuuming /Users/sw/.npm/browserify-sign
+106 verbose gentlyRm vacuuming /Users/sw/.npm/browserify-zlib
+107 verbose gentlyRm vacuuming /Users/sw/.npm/browserslist
+108 verbose gentlyRm vacuuming /Users/sw/.npm/bson
+109 verbose gentlyRm vacuuming /Users/sw/.npm/buffer
+110 verbose gentlyRm vacuuming /Users/sw/.npm/buffer-crc32
+111 verbose gentlyRm vacuuming /Users/sw/.npm/buffer-equal
+112 verbose gentlyRm vacuuming /Users/sw/.npm/buffer-to-vinyl
+113 verbose gentlyRm vacuuming /Users/sw/.npm/buffers
+114 verbose gentlyRm vacuuming /Users/sw/.npm/bufferstreams
+115 verbose gentlyRm vacuuming /Users/sw/.npm/bufferview
+116 verbose gentlyRm vacuuming /Users/sw/.npm/builtins
+117 verbose gentlyRm vacuuming /Users/sw/.npm/bunker
+118 verbose gentlyRm vacuuming /Users/sw/.npm/burrito
+119 verbose gentlyRm vacuuming /Users/sw/.npm/bytebuffer
+120 verbose gentlyRm vacuuming /Users/sw/.npm/bytes
+121 verbose gentlyRm vacuuming /Users/sw/.npm/cache-swap
+122 verbose gentlyRm vacuuming /Users/sw/.npm/callsite
+123 verbose gentlyRm vacuuming /Users/sw/.npm/camel-case
+124 verbose gentlyRm vacuuming /Users/sw/.npm/camelcase
+125 verbose gentlyRm vacuuming /Users/sw/.npm/camelcase-keys
+126 verbose gentlyRm vacuuming /Users/sw/.npm/caniuse-db
+127 verbose gentlyRm vacuuming /Users/sw/.npm/cardinal
+128 verbose gentlyRm vacuuming /Users/sw/.npm/caseless
+129 verbose gentlyRm vacuuming /Users/sw/.npm/castv2
+130 verbose gentlyRm vacuuming /Users/sw/.npm/castv2-client
+131 verbose gentlyRm vacuuming /Users/sw/.npm/chainsaw
+132 verbose gentlyRm vacuuming /Users/sw/.npm/chalk
+133 verbose gentlyRm vacuuming /Users/sw/.npm/change-case
+134 verbose gentlyRm vacuuming /Users/sw/.npm/character-parser
+135 verbose gentlyRm vacuuming /Users/sw/.npm/charm
+136 verbose gentlyRm vacuuming /Users/sw/.npm/cheerio
+137 verbose gentlyRm vacuuming /Users/sw/.npm/chmodr
+138 verbose gentlyRm vacuuming /Users/sw/.npm/chokidar
+139 verbose gentlyRm vacuuming /Users/sw/.npm/chromecast-js
+140 verbose gentlyRm vacuuming /Users/sw/.npm/cint
+141 verbose gentlyRm vacuuming /Users/sw/.npm/cl-strings
+142 verbose gentlyRm vacuuming /Users/sw/.npm/class-extend
+143 verbose gentlyRm vacuuming /Users/sw/.npm/clean-css
+144 verbose gentlyRm vacuuming /Users/sw/.npm/cli
+145 verbose gentlyRm vacuuming /Users/sw/.npm/cli-color
+146 verbose gentlyRm vacuuming /Users/sw/.npm/cli-table
+147 verbose gentlyRm vacuuming /Users/sw/.npm/clivas
+148 verbose gentlyRm vacuuming /Users/sw/.npm/clone
+149 verbose gentlyRm vacuuming /Users/sw/.npm/clone-stats
+150 verbose gentlyRm vacuuming /Users/sw/.npm/closest-to
+151 verbose gentlyRm vacuuming /Users/sw/.npm/co
+152 verbose gentlyRm vacuuming /Users/sw/.npm/coa
+153 verbose gentlyRm vacuuming /Users/sw/.npm/coffee-script
+154 verbose gentlyRm vacuuming /Users/sw/.npm/colors
+155 verbose gentlyRm vacuuming /Users/sw/.npm/colour
+156 verbose gentlyRm vacuuming /Users/sw/.npm/combine-source-map
+157 verbose gentlyRm vacuuming /Users/sw/.npm/combine-stream
+158 verbose gentlyRm vacuuming /Users/sw/.npm/combined-stream
+159 verbose gentlyRm vacuuming /Users/sw/.npm/commander
+160 verbose gentlyRm vacuuming /Users/sw/.npm/commondir
+161 verbose gentlyRm vacuuming /Users/sw/.npm/compact2string
+162 verbose gentlyRm vacuuming /Users/sw/.npm/component-bind
+163 verbose gentlyRm vacuuming /Users/sw/.npm/component-emitter
+164 verbose gentlyRm vacuuming /Users/sw/.npm/component-inherit
+165 verbose gentlyRm vacuuming /Users/sw/.npm/compressible
+166 verbose gentlyRm vacuuming /Users/sw/.npm/compression
+167 verbose gentlyRm vacuuming /Users/sw/.npm/concat-map
+168 verbose gentlyRm vacuuming /Users/sw/.npm/concat-stream
+169 verbose gentlyRm vacuuming /Users/sw/.npm/concat-with-sourcemaps
+170 verbose gentlyRm vacuuming /Users/sw/.npm/config-chain
+171 verbose gentlyRm vacuuming /Users/sw/.npm/configstore
+172 verbose gentlyRm vacuuming /Users/sw/.npm/connect
+173 verbose gentlyRm vacuuming /Users/sw/.npm/connect-history-api-fallback
+174 verbose gentlyRm vacuuming /Users/sw/.npm/connect-livereload
+175 verbose gentlyRm vacuuming /Users/sw/.npm/connect-timeout
+176 verbose gentlyRm vacuuming /Users/sw/.npm/console-browserify
+177 verbose gentlyRm vacuuming /Users/sw/.npm/constant-case
+178 verbose gentlyRm vacuuming /Users/sw/.npm/constantinople
+179 verbose gentlyRm vacuuming /Users/sw/.npm/constants-browserify
+180 verbose gentlyRm vacuuming /Users/sw/.npm/content-disposition
+181 verbose gentlyRm vacuuming /Users/sw/.npm/convert-source-map
+182 verbose gentlyRm vacuuming /Users/sw/.npm/cookie
+183 verbose gentlyRm vacuuming /Users/sw/.npm/cookie-jar
+184 verbose gentlyRm vacuuming /Users/sw/.npm/cookie-parser
+185 verbose gentlyRm vacuuming /Users/sw/.npm/cookie-signature
+186 verbose gentlyRm vacuuming /Users/sw/.npm/core-util-is
+187 verbose gentlyRm vacuuming /Users/sw/.npm/crc
+188 verbose gentlyRm vacuuming /Users/sw/.npm/create-ecdh
+189 verbose gentlyRm vacuuming /Users/sw/.npm/create-hash
+190 verbose gentlyRm vacuuming /Users/sw/.npm/create-hmac
+191 verbose gentlyRm vacuuming /Users/sw/.npm/create-torrent
+192 verbose gentlyRm vacuuming /Users/sw/.npm/cross-spawn
+193 verbose gentlyRm vacuuming /Users/sw/.npm/cryptiles
+194 verbose gentlyRm vacuuming /Users/sw/.npm/crypto-browserify
+195 verbose gentlyRm vacuuming /Users/sw/.npm/csrf
+196 verbose gentlyRm vacuuming /Users/sw/.npm/csrf-tokens
+197 verbose gentlyRm vacuuming /Users/sw/.npm/css
+198 verbose gentlyRm vacuuming /Users/sw/.npm/css-parse
+199 verbose gentlyRm vacuuming /Users/sw/.npm/css-stringify
+200 verbose gentlyRm vacuuming /Users/sw/.npm/csslint
+201 verbose gentlyRm vacuuming /Users/sw/.npm/csso
+202 verbose gentlyRm vacuuming /Users/sw/.npm/csurf
+203 verbose gentlyRm vacuuming /Users/sw/.npm/ctype
+204 verbose gentlyRm vacuuming /Users/sw/.npm/d
+205 verbose gentlyRm vacuuming /Users/sw/.npm/dargs
+206 verbose gentlyRm vacuuming /Users/sw/.npm/date-now
+207 verbose gentlyRm vacuuming /Users/sw/.npm/date-time
+208 verbose gentlyRm vacuuming /Users/sw/.npm/dateformat
+209 verbose gentlyRm vacuuming /Users/sw/.npm/debug
+210 verbose gentlyRm vacuuming /Users/sw/.npm/decamelize
+211 verbose gentlyRm vacuuming /Users/sw/.npm/decompress
+212 verbose gentlyRm vacuuming /Users/sw/.npm/decompress-tar
+213 verbose gentlyRm vacuuming /Users/sw/.npm/decompress-tarbz2
+214 verbose gentlyRm vacuuming /Users/sw/.npm/decompress-targz
+215 verbose gentlyRm vacuuming /Users/sw/.npm/decompress-unzip
+216 verbose gentlyRm vacuuming /Users/sw/.npm/decompress-zip
+217 verbose gentlyRm vacuuming /Users/sw/.npm/deep-equal
+218 verbose gentlyRm vacuuming /Users/sw/.npm/deep-extend
+219 verbose gentlyRm vacuuming /Users/sw/.npm/deep-is
+220 verbose gentlyRm vacuuming /Users/sw/.npm/deepmerge
+221 verbose gentlyRm vacuuming /Users/sw/.npm/default-uid
+222 verbose gentlyRm vacuuming /Users/sw/.npm/defaults
+223 verbose gentlyRm vacuuming /Users/sw/.npm/defined
+224 verbose gentlyRm vacuuming /Users/sw/.npm/del
+225 verbose gentlyRm vacuuming /Users/sw/.npm/delayed-stream
+226 verbose gentlyRm vacuuming /Users/sw/.npm/depd
+227 verbose gentlyRm vacuuming /Users/sw/.npm/deprecated
+228 verbose gentlyRm vacuuming /Users/sw/.npm/deps-sort
+229 verbose gentlyRm vacuuming /Users/sw/.npm/destroy
+230 verbose gentlyRm vacuuming /Users/sw/.npm/detect-conflict
+231 verbose gentlyRm vacuuming /Users/sw/.npm/detective
+232 verbose gentlyRm vacuuming /Users/sw/.npm/dev-ip
+233 verbose gentlyRm vacuuming /Users/sw/.npm/dezalgo
+234 verbose gentlyRm vacuuming /Users/sw/.npm/diff
+235 verbose gentlyRm vacuuming /Users/sw/.npm/diffie-hellman
+236 verbose gentlyRm vacuuming /Users/sw/.npm/difflet
+237 verbose gentlyRm vacuuming /Users/sw/.npm/dom-serializer
+238 verbose gentlyRm vacuuming /Users/sw/.npm/domain-browser
+239 verbose gentlyRm vacuuming /Users/sw/.npm/domelementtype
+240 verbose gentlyRm vacuuming /Users/sw/.npm/domhandler
+241 verbose gentlyRm vacuuming /Users/sw/.npm/domutils
+242 verbose gentlyRm vacuuming /Users/sw/.npm/dot-case
+243 verbose gentlyRm vacuuming /Users/sw/.npm/dot-prop
+244 verbose gentlyRm vacuuming /Users/sw/.npm/downgrade-root
+245 verbose gentlyRm vacuuming /Users/sw/.npm/download
+246 verbose gentlyRm vacuuming /Users/sw/.npm/download-status
+247 verbose gentlyRm vacuuming /Users/sw/.npm/duplexer
+248 verbose gentlyRm vacuuming /Users/sw/.npm/duplexer2
+249 verbose gentlyRm vacuuming /Users/sw/.npm/duplexify
+250 verbose gentlyRm vacuuming /Users/sw/.npm/each-async
+251 verbose gentlyRm vacuuming /Users/sw/.npm/easy-extender
+252 verbose gentlyRm vacuuming /Users/sw/.npm/eazy-logger
+253 verbose gentlyRm vacuuming /Users/sw/.npm/ee-first
+254 verbose gentlyRm vacuuming /Users/sw/.npm/elliptic
+255 verbose gentlyRm vacuuming /Users/sw/.npm/emitter
+256 verbose gentlyRm vacuuming /Users/sw/.npm/emitter-steward
+257 verbose gentlyRm vacuuming /Users/sw/.npm/end-of-stream
+258 verbose gentlyRm vacuuming /Users/sw/.npm/engine.io
+259 verbose gentlyRm vacuuming /Users/sw/.npm/engine.io-client
+260 verbose gentlyRm vacuuming /Users/sw/.npm/engine.io-parser
+261 verbose gentlyRm vacuuming /Users/sw/.npm/entities
+262 verbose gentlyRm vacuuming /Users/sw/.npm/errorhandler
+263 verbose gentlyRm vacuuming /Users/sw/.npm/es5-ext
+264 verbose gentlyRm vacuuming /Users/sw/.npm/es6-iterator
+265 verbose gentlyRm vacuuming /Users/sw/.npm/es6-symbol
+266 verbose gentlyRm vacuuming /Users/sw/.npm/es6-weak-map
+267 verbose gentlyRm vacuuming /Users/sw/.npm/escape-html
+268 verbose gentlyRm vacuuming /Users/sw/.npm/escape-string-regexp
+269 verbose gentlyRm vacuuming /Users/sw/.npm/escodegen
+270 verbose gentlyRm vacuuming /Users/sw/.npm/esprima
+271 verbose gentlyRm vacuuming /Users/sw/.npm/esprima-fb
+272 verbose gentlyRm vacuuming /Users/sw/.npm/estraverse
+273 verbose gentlyRm vacuuming /Users/sw/.npm/esutils
+274 verbose gentlyRm vacuuming /Users/sw/.npm/etag
+275 verbose gentlyRm vacuuming /Users/sw/.npm/event-emitter
+276 verbose gentlyRm vacuuming /Users/sw/.npm/event-stream
+277 verbose gentlyRm vacuuming /Users/sw/.npm/eventemitter2
+278 verbose gentlyRm vacuuming /Users/sw/.npm/eventemitter3
+279 verbose gentlyRm vacuuming /Users/sw/.npm/events
+280 verbose gentlyRm vacuuming /Users/sw/.npm/exec-buffer
+281 verbose gentlyRm vacuuming /Users/sw/.npm/exec-series
+282 verbose gentlyRm vacuuming /Users/sw/.npm/execSync
+283 verbose gentlyRm vacuuming /Users/sw/.npm/execify
+284 verbose gentlyRm vacuuming /Users/sw/.npm/executable
+285 verbose gentlyRm vacuuming /Users/sw/.npm/exit
+286 verbose gentlyRm vacuuming /Users/sw/.npm/express
+287 verbose gentlyRm vacuuming /Users/sw/.npm/express-generator
+288 verbose gentlyRm vacuuming /Users/sw/.npm/express-session
+289 verbose gentlyRm vacuuming /Users/sw/.npm/extend
+290 verbose gentlyRm vacuuming /Users/sw/.npm/extend.js
+291 verbose gentlyRm vacuuming /Users/sw/.npm/fast-levenshtein
+292 verbose gentlyRm vacuuming /Users/sw/.npm/faye-websocket
+293 verbose gentlyRm vacuuming /Users/sw/.npm/fd-slicer
+294 verbose gentlyRm vacuuming /Users/sw/.npm/figures
+295 verbose gentlyRm vacuuming /Users/sw/.npm/file-type
+296 verbose gentlyRm vacuuming /Users/sw/.npm/file-utils
+297 verbose gentlyRm vacuuming /Users/sw/.npm/filestream
+298 verbose gentlyRm vacuuming /Users/sw/.npm/finalhandler
+299 verbose gentlyRm vacuuming /Users/sw/.npm/find-file
+300 verbose gentlyRm vacuuming /Users/sw/.npm/find-index
+301 verbose gentlyRm vacuuming /Users/sw/.npm/find-versions
+302 verbose gentlyRm vacuuming /Users/sw/.npm/findup
+303 verbose gentlyRm vacuuming /Users/sw/.npm/findup-sync
+304 verbose gentlyRm vacuuming /Users/sw/.npm/finished
+305 verbose gentlyRm vacuuming /Users/sw/.npm/first-chunk-stream
+306 verbose gentlyRm vacuuming /Users/sw/.npm/flagged-respawn
+307 verbose gentlyRm vacuuming /Users/sw/.npm/flatten
+308 verbose gentlyRm vacuuming /Users/sw/.npm/for-in
+309 verbose gentlyRm vacuuming /Users/sw/.npm/for-own
+310 verbose gentlyRm vacuuming /Users/sw/.npm/foreachasync
+311 verbose gentlyRm vacuuming /Users/sw/.npm/forever-agent
+312 verbose gentlyRm vacuuming /Users/sw/.npm/fork-stream
+313 verbose gentlyRm vacuuming /Users/sw/.npm/form-data
+314 verbose gentlyRm vacuuming /Users/sw/.npm/formatio
+315 verbose gentlyRm vacuuming /Users/sw/.npm/formidable
+316 verbose gentlyRm vacuuming /Users/sw/.npm/forwarded
+317 verbose gentlyRm vacuuming /Users/sw/.npm/foxy
+318 verbose gentlyRm vacuuming /Users/sw/.npm/fresh
+319 verbose gentlyRm vacuuming /Users/sw/.npm/from
+320 verbose gentlyRm vacuuming /Users/sw/.npm/fs-extra
+321 verbose gentlyRm vacuuming /Users/sw/.npm/fsevents
+322 verbose gentlyRm vacuuming /Users/sw/.npm/fstream
+323 verbose gentlyRm vacuuming /Users/sw/.npm/fstream-ignore
+324 verbose gentlyRm vacuuming /Users/sw/.npm/ftp-response-parser
+325 verbose gentlyRm vacuuming /Users/sw/.npm/fullname
+326 verbose gentlyRm vacuuming /Users/sw/.npm/gapitoken
+327 verbose gentlyRm vacuuming /Users/sw/.npm/gaze
+328 verbose gentlyRm vacuuming /Users/sw/.npm/generator-gulp-webapp
+329 verbose gentlyRm vacuuming /Users/sw/.npm/generator-jekyllized
+330 verbose gentlyRm vacuuming /Users/sw/.npm/generator-jekyllrb
+331 verbose gentlyRm vacuuming /Users/sw/.npm/generator-mocha
+332 verbose gentlyRm vacuuming /Users/sw/.npm/get-stdin
+333 verbose gentlyRm vacuuming /Users/sw/.npm/getobject
+334 verbose gentlyRm vacuuming /Users/sw/.npm/gifsicle
+335 verbose gentlyRm vacuuming /Users/sw/.npm/gift
+336 verbose gentlyRm vacuuming /Users/sw/.npm/git-remote-origin-url
+337 verbose gentlyRm vacuuming /Users/sw/.npm/git-sha1
+338 verbose gentlyRm vacuuming /Users/sw/.npm/gitconfiglocal
+339 verbose gentlyRm vacuuming /Users/sw/.npm/github-url-from-git
+340 verbose gentlyRm vacuuming /Users/sw/.npm/github-url-from-username-repo
+341 verbose gentlyRm vacuuming /Users/sw/.npm/github-username
+342 verbose gentlyRm vacuuming /Users/sw/.npm/glob
+343 verbose gentlyRm vacuuming /Users/sw/.npm/glob-stream
+344 verbose gentlyRm vacuuming /Users/sw/.npm/glob-watcher
+345 verbose gentlyRm vacuuming /Users/sw/.npm/glob2base
+346 verbose gentlyRm vacuuming /Users/sw/.npm/global
+347 verbose gentlyRm vacuuming /Users/sw/.npm/globby
+348 verbose gentlyRm vacuuming /Users/sw/.npm/globule
+349 verbose gentlyRm vacuuming /Users/sw/.npm/googleapis
+350 verbose gentlyRm vacuuming /Users/sw/.npm/got
+351 verbose gentlyRm vacuuming /Users/sw/.npm/graceful-fs
+352 verbose gentlyRm vacuuming /Users/sw/.npm/graceful-readlink
+353 verbose gentlyRm vacuuming /Users/sw/.npm/grouped-queue
+354 verbose gentlyRm vacuuming /Users/sw/.npm/growl
+355 verbose gentlyRm vacuuming /Users/sw/.npm/growly
+356 verbose gentlyRm vacuuming /Users/sw/.npm/grunt
+357 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-autoprefixer
+358 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-browser-sync
+359 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-build-control
+360 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-cli
+361 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-concurrent
+362 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-contrib-clean
+363 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-contrib-compass
+364 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-contrib-concat
+365 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-contrib-connect
+366 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-contrib-copy
+367 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-contrib-csslint
+368 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-contrib-cssmin
+369 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-contrib-htmlmin
+370 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-contrib-imagemin
+371 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-contrib-jshint
+372 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-contrib-sass
+373 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-contrib-uglify
+374 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-contrib-watch
+375 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-exec
+376 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-filerev
+377 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-hologram
+378 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-jekyll
+379 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-legacy-log
+380 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-legacy-util
+381 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-rsync
+382 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-svgmin
+383 verbose gentlyRm vacuuming /Users/sw/.npm/grunt-usemin
+384 verbose gentlyRm vacuuming /Users/sw/.npm/gruntfile-editor
+385 verbose gentlyRm vacuuming /Users/sw/.npm/gulp
+386 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-autoprefixer
+387 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-cache
+388 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-cached
+389 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-changed
+390 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-concat
+391 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-connect
+392 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-csso
+393 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-exit
+394 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-filter
+395 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-ftp
+396 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-gh-pages
+397 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-gzip
+398 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-htmlmin
+399 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-if
+400 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-imagemin
+401 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-jade
+402 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-jshint
+403 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-livereload
+404 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-load-plugins
+405 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-match
+406 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-minify-css
+407 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-minify-html
+408 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-nodemon
+409 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-notify
+410 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-postcss
+411 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-rename
+412 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-rev-all
+413 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-rev-replace
+414 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-rsync
+415 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-sass
+416 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-scss-lint
+417 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-sftp
+418 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-shell
+419 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-size
+420 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-sizereport
+421 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-sourcemaps
+422 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-svgmin
+423 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-uglify
+424 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-uncss
+425 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-useref
+426 verbose gentlyRm vacuuming /Users/sw/.npm/gulp-util
+427 verbose gentlyRm vacuuming /Users/sw/.npm/gzip-size
+428 verbose gentlyRm vacuuming /Users/sw/.npm/handlebars
+429 verbose gentlyRm vacuuming /Users/sw/.npm/has
+430 verbose gentlyRm vacuuming /Users/sw/.npm/has-ansi
+431 verbose gentlyRm vacuuming /Users/sw/.npm/has-binary
+432 verbose gentlyRm vacuuming /Users/sw/.npm/has-binary-data
+433 verbose gentlyRm vacuuming /Users/sw/.npm/has-color
+434 verbose gentlyRm vacuuming /Users/sw/.npm/has-cors
+435 verbose gentlyRm vacuuming /Users/sw/.npm/hash.js
+436 verbose gentlyRm vacuuming /Users/sw/.npm/hat
+437 verbose gentlyRm vacuuming /Users/sw/.npm/hawk
+438 verbose gentlyRm vacuuming /Users/sw/.npm/hoek
+439 verbose gentlyRm vacuuming /Users/sw/.npm/hooker
+440 verbose gentlyRm vacuuming /Users/sw/.npm/hooks
+441 verbose gentlyRm vacuuming /Users/sw/.npm/html-minifier
+442 verbose gentlyRm vacuuming /Users/sw/.npm/htmlparser2
+443 verbose gentlyRm vacuuming /Users/sw/.npm/http-browserify
+444 verbose gentlyRm vacuuming /Users/sw/.npm/http-errors
+445 verbose gentlyRm vacuuming /Users/sw/.npm/http-https
+446 verbose gentlyRm vacuuming /Users/sw/.npm/http-proxy
+447 verbose gentlyRm vacuuming /Users/sw/.npm/http-signature
+448 verbose gentlyRm vacuuming /Users/sw/.npm/https-browserify
+449 verbose gentlyRm vacuuming /Users/sw/.npm/humanize-string
+450 verbose gentlyRm vacuuming /Users/sw/.npm/humanize-url
+451 verbose gentlyRm vacuuming /Users/sw/.npm/i
+452 verbose gentlyRm vacuuming /Users/sw/.npm/iconv-lite
+453 verbose gentlyRm vacuuming /Users/sw/.npm/ieee754
+454 verbose gentlyRm vacuuming /Users/sw/.npm/imagemin
+455 verbose gentlyRm vacuuming /Users/sw/.npm/imagemin-gifsicle
+456 verbose gentlyRm vacuuming /Users/sw/.npm/imagemin-jpegoptim
+457 verbose gentlyRm vacuuming /Users/sw/.npm/imagemin-jpegtran
+458 verbose gentlyRm vacuuming /Users/sw/.npm/imagemin-log
+459 verbose gentlyRm vacuuming /Users/sw/.npm/imagemin-optipng
+460 verbose gentlyRm vacuuming /Users/sw/.npm/imagemin-pngquant
+461 verbose gentlyRm vacuuming /Users/sw/.npm/imagemin-svgo
+462 verbose gentlyRm vacuuming /Users/sw/.npm/immutable
+463 verbose gentlyRm vacuuming /Users/sw/.npm/indent-string
+464 verbose gentlyRm vacuuming /Users/sw/.npm/indexof
+465 verbose gentlyRm vacuuming /Users/sw/.npm/infinity-agent
+466 verbose gentlyRm vacuuming /Users/sw/.npm/inflight
+467 verbose gentlyRm vacuuming /Users/sw/.npm/inherits
+468 verbose gentlyRm vacuuming /Users/sw/.npm/ini
+469 verbose gentlyRm vacuuming /Users/sw/.npm/inline-source-map
+470 verbose gentlyRm vacuuming /Users/sw/.npm/inquirer
+471 verbose gentlyRm vacuuming /Users/sw/.npm/insert-module-globals
+472 verbose gentlyRm vacuuming /Users/sw/.npm/insight
+473 verbose gentlyRm vacuuming /Users/sw/.npm/interpret
+474 verbose gentlyRm vacuuming /Users/sw/.npm/intersect
+475 verbose gentlyRm vacuuming /Users/sw/.npm/ip
+476 verbose gentlyRm vacuuming /Users/sw/.npm/ip-regex
+477 verbose gentlyRm vacuuming /Users/sw/.npm/ip-set
+478 verbose gentlyRm vacuuming /Users/sw/.npm/ipaddr.js
+479 verbose gentlyRm vacuuming /Users/sw/.npm/is
+480 verbose gentlyRm vacuuming /Users/sw/.npm/is-7zip
+481 verbose gentlyRm vacuuming /Users/sw/.npm/is-absolute
+482 verbose gentlyRm vacuuming /Users/sw/.npm/is-absolute-url
+483 verbose gentlyRm vacuuming /Users/sw/.npm/is-array
+484 verbose gentlyRm vacuuming /Users/sw/.npm/is-bzip2
+485 verbose gentlyRm vacuuming /Users/sw/.npm/is-finite
+486 verbose gentlyRm vacuuming /Users/sw/.npm/is-gif
+487 verbose gentlyRm vacuuming /Users/sw/.npm/is-gzip
+488 verbose gentlyRm vacuuming /Users/sw/.npm/is-integer
+489 verbose gentlyRm vacuuming /Users/sw/.npm/is-ip
+490 verbose gentlyRm vacuuming /Users/sw/.npm/is-jpg
+491 verbose gentlyRm vacuuming /Users/sw/.npm/is-lower-case
+492 verbose gentlyRm vacuuming /Users/sw/.npm/is-nan
+493 verbose gentlyRm vacuuming /Users/sw/.npm/is-natural-number
+494 verbose gentlyRm vacuuming /Users/sw/.npm/is-npm
+495 verbose gentlyRm vacuuming /Users/sw/.npm/is-path-cwd
+496 verbose gentlyRm vacuuming /Users/sw/.npm/is-path-global
+497 verbose gentlyRm vacuuming /Users/sw/.npm/is-path-in-cwd
+498 verbose gentlyRm vacuuming /Users/sw/.npm/is-path-inside
+499 verbose gentlyRm vacuuming /Users/sw/.npm/is-png
+500 verbose gentlyRm vacuuming /Users/sw/.npm/is-promise
+501 verbose gentlyRm vacuuming /Users/sw/.npm/is-rar
+502 verbose gentlyRm vacuuming /Users/sw/.npm/is-relative
+503 verbose gentlyRm vacuuming /Users/sw/.npm/is-relative-url
+504 verbose gentlyRm vacuuming /Users/sw/.npm/is-root
+505 verbose gentlyRm vacuuming /Users/sw/.npm/is-stream
+506 verbose gentlyRm vacuuming /Users/sw/.npm/is-svg
+507 verbose gentlyRm vacuuming /Users/sw/.npm/is-tar
+508 verbose gentlyRm vacuuming /Users/sw/.npm/is-typedarray
+509 verbose gentlyRm vacuuming /Users/sw/.npm/is-upper-case
+510 verbose gentlyRm vacuuming /Users/sw/.npm/is-utf8
+511 verbose gentlyRm vacuuming /Users/sw/.npm/is-zip
+512 verbose gentlyRm vacuuming /Users/sw/.npm/isarray
+513 verbose gentlyRm vacuuming /Users/sw/.npm/isbinaryfile
+514 verbose gentlyRm vacuuming /Users/sw/.npm/isobject
+515 verbose gentlyRm vacuuming /Users/sw/.npm/isstream
+516 verbose gentlyRm vacuuming /Users/sw/.npm/istextorbinary
+517 verbose gentlyRm vacuuming /Users/sw/.npm/jade
+518 verbose gentlyRm vacuuming /Users/sw/.npm/jpegoptim-bin
+519 verbose gentlyRm vacuuming /Users/sw/.npm/jpegtran-bin
+520 verbose gentlyRm vacuuming /Users/sw/.npm/jquery
+521 verbose gentlyRm vacuuming /Users/sw/.npm/js-base64
+522 verbose gentlyRm vacuuming /Users/sw/.npm/js-string-escape
+523 verbose gentlyRm vacuuming /Users/sw/.npm/js-yaml
+524 verbose gentlyRm vacuuming /Users/sw/.npm/jsftp
+525 verbose gentlyRm vacuuming /Users/sw/.npm/jsftp-mkdirp
+526 verbose gentlyRm vacuuming /Users/sw/.npm/jshint
+527 verbose gentlyRm vacuuming /Users/sw/.npm/jshint-stylish
+528 verbose gentlyRm vacuuming /Users/sw/.npm/json-stable-stringify
+529 verbose gentlyRm vacuuming /Users/sw/.npm/json-stringify-safe
+530 verbose gentlyRm vacuuming /Users/sw/.npm/json3
+531 verbose gentlyRm vacuuming /Users/sw/.npm/jsonfile
+532 verbose gentlyRm vacuuming /Users/sw/.npm/jsonify
+533 verbose gentlyRm vacuuming /Users/sw/.npm/jsonparse
+534 verbose gentlyRm vacuuming /Users/sw/.npm/junk
+535 verbose gentlyRm vacuuming /Users/sw/.npm/jws
+536 verbose gentlyRm vacuuming /Users/sw/.npm/k-bucket
+537 verbose gentlyRm vacuuming /Users/sw/.npm/kerberos
+538 verbose gentlyRm vacuuming /Users/sw/.npm/kew
+539 verbose gentlyRm vacuuming /Users/sw/.npm/keypress
+540 verbose gentlyRm vacuuming /Users/sw/.npm/labeled-stream-splicer
+541 verbose gentlyRm vacuuming /Users/sw/.npm/latest-version
+542 verbose gentlyRm vacuuming /Users/sw/.npm/levn
+543 verbose gentlyRm vacuuming /Users/sw/.npm/lexical-scope
+544 verbose gentlyRm vacuuming /Users/sw/.npm/liftoff
+545 verbose gentlyRm vacuuming /Users/sw/.npm/livereload-js
+546 verbose gentlyRm vacuuming /Users/sw/.npm/lnfs
+547 verbose gentlyRm vacuuming /Users/sw/.npm/load-grunt-tasks
+548 verbose gentlyRm vacuuming /Users/sw/.npm/load-ip-set
+549 verbose gentlyRm vacuuming /Users/sw/.npm/localtunnel
+550 verbose gentlyRm vacuuming /Users/sw/.npm/lockfile
+551 verbose gentlyRm vacuuming /Users/sw/.npm/lodash
+552 verbose gentlyRm vacuuming /Users/sw/.npm/lodash-node
+553 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._arraypool
+554 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._baseassign
+555 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._basebind
+556 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._basecopy
+557 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._basecreate
+558 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._basecreatecallback
+559 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._basecreatewrapper
+560 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._baseisequal
+561 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._basetostring
+562 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._basevalues
+563 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._bindcallback
+564 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._createassigner
+565 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._createwrapper
+566 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._escapehtmlchar
+567 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._escapestringchar
+568 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._getarray
+569 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._htmlescapes
+570 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._isiterateecall
+571 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._isnative
+572 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._maxpoolsize
+573 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._objecttypes
+574 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._reescape
+575 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._reevaluate
+576 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._reinterpolate
+577 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._releasearray
+578 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._reunescapedhtml
+579 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._setbinddata
+580 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._shimkeys
+581 verbose gentlyRm vacuuming /Users/sw/.npm/lodash._slice
+582 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.assign
+583 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.bind
+584 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.createcallback
+585 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.debounce
+586 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.defaults
+587 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.escape
+588 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.every
+589 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.findindex
+590 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.forin
+591 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.forown
+592 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.identity
+593 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.isarguments
+594 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.isarray
+595 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.iserror
+596 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.isfunction
+597 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.isnative
+598 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.isobject
+599 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.isstring
+600 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.keys
+601 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.noop
+602 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.now
+603 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.property
+604 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.reescape
+605 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.reevaluate
+606 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.reinterpolate
+607 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.support
+608 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.template
+609 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.templatesettings
+610 verbose gentlyRm vacuuming /Users/sw/.npm/lodash.values
+611 verbose gentlyRm vacuuming /Users/sw/.npm/log-symbols
+612 verbose gentlyRm vacuuming /Users/sw/.npm/logalot
+613 verbose gentlyRm vacuuming /Users/sw/.npm/lolex
+614 verbose gentlyRm vacuuming /Users/sw/.npm/long
+615 verbose gentlyRm vacuuming /Users/sw/.npm/longest
+616 verbose gentlyRm vacuuming /Users/sw/.npm/lower-case
+617 verbose gentlyRm vacuuming /Users/sw/.npm/lowercase-keys
+618 verbose gentlyRm vacuuming /Users/sw/.npm/lpad
+619 verbose gentlyRm vacuuming /Users/sw/.npm/lpad-align
+620 verbose gentlyRm vacuuming /Users/sw/.npm/lru-cache
+621 verbose gentlyRm vacuuming /Users/sw/.npm/lru-queue
+622 verbose gentlyRm vacuuming /Users/sw/.npm/magnet-uri
+623 verbose gentlyRm vacuuming /Users/sw/.npm/main-bower-files
+624 verbose gentlyRm vacuuming /Users/sw/.npm/map-obj
+625 verbose gentlyRm vacuuming /Users/sw/.npm/map-stream
+626 verbose gentlyRm vacuuming /Users/sw/.npm/markdown
+627 verbose gentlyRm vacuuming /Users/sw/.npm/marked
+628 verbose gentlyRm vacuuming /Users/sw/.npm/maxmin
+629 verbose gentlyRm vacuuming /Users/sw/.npm/mdns-js
+630 verbose gentlyRm vacuuming /Users/sw/.npm/mdns-js2
+631 verbose gentlyRm vacuuming /Users/sw/.npm/media-typer
+632 verbose gentlyRm vacuuming /Users/sw/.npm/mem-fs
+633 verbose gentlyRm vacuuming /Users/sw/.npm/mem-fs-editor
+634 verbose gentlyRm vacuuming /Users/sw/.npm/memoizee
+635 verbose gentlyRm vacuuming /Users/sw/.npm/memory-cache
+636 verbose gentlyRm vacuuming /Users/sw/.npm/meow
+637 verbose gentlyRm vacuuming /Users/sw/.npm/merge-descriptors
+638 verbose gentlyRm vacuuming /Users/sw/.npm/merge-stream
+639 verbose gentlyRm vacuuming /Users/sw/.npm/method-override
+640 verbose gentlyRm vacuuming /Users/sw/.npm/methods
+641 verbose gentlyRm vacuuming /Users/sw/.npm/miller-rabin
+642 verbose gentlyRm vacuuming /Users/sw/.npm/mime
+643 verbose gentlyRm vacuuming /Users/sw/.npm/mime-db
+644 verbose gentlyRm vacuuming /Users/sw/.npm/mime-types
+645 verbose gentlyRm vacuuming /Users/sw/.npm/minimalistic-assert
+646 verbose gentlyRm vacuuming /Users/sw/.npm/minimatch
+647 verbose gentlyRm vacuuming /Users/sw/.npm/minimist
+648 verbose gentlyRm vacuuming /Users/sw/.npm/minimize
+649 verbose gentlyRm vacuuming /Users/sw/.npm/mkdirp
+650 verbose gentlyRm vacuuming /Users/sw/.npm/mkpath
+651 verbose gentlyRm vacuuming /Users/sw/.npm/mocha
+652 verbose gentlyRm vacuuming /Users/sw/.npm/module-deps
+653 verbose gentlyRm vacuuming /Users/sw/.npm/moment
+654 verbose gentlyRm vacuuming /Users/sw/.npm/mongodb
+655 verbose gentlyRm vacuuming /Users/sw/.npm/mongoose
+656 verbose gentlyRm vacuuming /Users/sw/.npm/monocle
+657 verbose gentlyRm vacuuming /Users/sw/.npm/morgan
+658 verbose gentlyRm vacuuming /Users/sw/.npm/mout
+659 verbose gentlyRm vacuuming /Users/sw/.npm/mpath
+660 verbose gentlyRm vacuuming /Users/sw/.npm/mpromise
+661 verbose gentlyRm vacuuming /Users/sw/.npm/mquery
+662 verbose gentlyRm vacuuming /Users/sw/.npm/ms
+663 verbose gentlyRm vacuuming /Users/sw/.npm/multimatch
+664 verbose gentlyRm vacuuming /Users/sw/.npm/multiparty
+665 verbose gentlyRm vacuuming /Users/sw/.npm/multipipe
+666 verbose gentlyRm vacuuming /Users/sw/.npm/multistream
+667 verbose gentlyRm vacuuming /Users/sw/.npm/muri
+668 verbose gentlyRm vacuuming /Users/sw/.npm/mute-stream
+669 verbose gentlyRm vacuuming /Users/sw/.npm/mz
+670 verbose gentlyRm vacuuming /Users/sw/.npm/nan
+671 verbose gentlyRm vacuuming /Users/sw/.npm/native-or-bluebird
+672 verbose gentlyRm vacuuming /Users/sw/.npm/ncp
+673 verbose gentlyRm vacuuming /Users/sw/.npm/negotiator
+674 verbose gentlyRm vacuuming /Users/sw/.npm/network-address
+675 verbose gentlyRm vacuuming /Users/sw/.npm/next-tick
+676 verbose gentlyRm vacuuming /Users/sw/.npm/ngrok
+677 verbose gentlyRm vacuuming /Users/sw/.npm/node-notifier
+678 verbose gentlyRm vacuuming /Users/sw/.npm/node-phantom-simple
+679 verbose gentlyRm vacuuming /Users/sw/.npm/node-sass
+680 verbose gentlyRm vacuuming /Users/sw/.npm/node-sass-middleware
+681 verbose gentlyRm vacuuming /Users/sw/.npm/node-useref
+682 verbose gentlyRm vacuuming /Users/sw/.npm/node-uuid
+683 verbose gentlyRm vacuuming /Users/sw/.npm/node-watch
+684 verbose gentlyRm vacuuming /Users/sw/.npm/node.extend
+685 verbose gentlyRm vacuuming /Users/sw/.npm/nodebmc
+686 verbose gentlyRm vacuuming /Users/sw/.npm/nodemon
+687 verbose gentlyRm vacuuming /Users/sw/.npm/nopt
+688 verbose gentlyRm vacuuming /Users/sw/.npm/noptify
+689 verbose gentlyRm vacuuming /Users/sw/.npm/normalize-package-data
+690 verbose gentlyRm vacuuming /Users/sw/.npm/normalize-url
+691 verbose gentlyRm vacuuming /Users/sw/.npm/npm
+692 verbose gentlyRm vacuuming /Users/sw/.npm/npm-check-updates
+693 verbose gentlyRm vacuuming /Users/sw/.npm/npm-installed
+694 verbose gentlyRm vacuuming /Users/sw/.npm/npm-keyword
+695 verbose gentlyRm vacuuming /Users/sw/.npm/npm-path
+696 verbose gentlyRm vacuuming /Users/sw/.npm/npm-which
+697 verbose gentlyRm vacuuming /Users/sw/.npm/npmconf
+698 verbose gentlyRm vacuuming /Users/sw/.npm/num2fraction
+699 verbose gentlyRm vacuuming /Users/sw/.npm/oauth-sign
+700 verbose gentlyRm vacuuming /Users/sw/.npm/object-assign
+701 verbose gentlyRm vacuuming /Users/sw/.npm/object-component
+702 verbose gentlyRm vacuuming /Users/sw/.npm/object-keys
+703 verbose gentlyRm vacuuming /Users/sw/.npm/object-path
+704 verbose gentlyRm vacuuming /Users/sw/.npm/object-values
+705 verbose gentlyRm vacuuming /Users/sw/.npm/object.omit
+706 verbose gentlyRm vacuuming /Users/sw/.npm/on-finished
+707 verbose gentlyRm vacuuming /Users/sw/.npm/on-headers
+708 verbose gentlyRm vacuuming /Users/sw/.npm/once
+709 verbose gentlyRm vacuuming /Users/sw/.npm/onetime
+710 verbose gentlyRm vacuuming /Users/sw/.npm/open
+711 verbose gentlyRm vacuuming /Users/sw/.npm/opn
+712 verbose gentlyRm vacuuming /Users/sw/.npm/opt-merger
+713 verbose gentlyRm vacuuming /Users/sw/.npm/optimist
+714 verbose gentlyRm vacuuming /Users/sw/.npm/optional
+715 verbose gentlyRm vacuuming /Users/sw/.npm/optionator
+716 verbose gentlyRm vacuuming /Users/sw/.npm/options
+717 verbose gentlyRm vacuuming /Users/sw/.npm/optipng-bin
+718 verbose gentlyRm vacuuming /Users/sw/.npm/optjs
+719 verbose gentlyRm vacuuming /Users/sw/.npm/opts
+720 verbose gentlyRm vacuuming /Users/sw/.npm/orchestrator
+721 verbose gentlyRm vacuuming /Users/sw/.npm/ordered-read-streams
+722 verbose gentlyRm vacuuming /Users/sw/.npm/os-browserify
+723 verbose gentlyRm vacuuming /Users/sw/.npm/os-filter-obj
+724 verbose gentlyRm vacuuming /Users/sw/.npm/os-name
+725 verbose gentlyRm vacuuming /Users/sw/.npm/osenv
+726 verbose gentlyRm vacuuming /Users/sw/.npm/osx-release
+727 verbose gentlyRm vacuuming /Users/sw/.npm/p-throttler
+728 verbose gentlyRm vacuuming /Users/sw/.npm/package-json
+729 verbose gentlyRm vacuuming /Users/sw/.npm/pad-component
+730 verbose gentlyRm vacuuming /Users/sw/.npm/pad-stdio
+731 verbose gentlyRm vacuuming /Users/sw/.npm/pako
+732 verbose gentlyRm vacuuming /Users/sw/.npm/param-case
+733 verbose gentlyRm vacuuming /Users/sw/.npm/parents
+734 verbose gentlyRm vacuuming /Users/sw/.npm/parse-asn1
+735 verbose gentlyRm vacuuming /Users/sw/.npm/parse-listing
+736 verbose gentlyRm vacuuming /Users/sw/.npm/parse-ms
+737 verbose gentlyRm vacuuming /Users/sw/.npm/parse-torrent
+738 verbose gentlyRm vacuuming /Users/sw/.npm/parse-torrent-file
+739 verbose gentlyRm vacuuming /Users/sw/.npm/parsejson
+740 verbose gentlyRm vacuuming /Users/sw/.npm/parseqs
+741 verbose gentlyRm vacuuming /Users/sw/.npm/parserlib
+742 verbose gentlyRm vacuuming /Users/sw/.npm/parseuri
+743 verbose gentlyRm vacuuming /Users/sw/.npm/parseurl
+744 verbose gentlyRm vacuuming /Users/sw/.npm/pascal-case
+745 verbose gentlyRm vacuuming /Users/sw/.npm/path-browserify
+746 verbose gentlyRm vacuuming /Users/sw/.npm/path-case
+747 verbose gentlyRm vacuuming /Users/sw/.npm/path-is-inside
+748 verbose gentlyRm vacuuming /Users/sw/.npm/path-platform
+749 verbose gentlyRm vacuuming /Users/sw/.npm/path-to-regexp
+750 verbose gentlyRm vacuuming /Users/sw/.npm/pause
+751 verbose gentlyRm vacuuming /Users/sw/.npm/pause-stream
+752 verbose gentlyRm vacuuming /Users/sw/.npm/pbkdf2-compat
+753 verbose gentlyRm vacuuming /Users/sw/.npm/pemstrip
+754 verbose gentlyRm vacuuming /Users/sw/.npm/pend
+755 verbose gentlyRm vacuuming /Users/sw/.npm/phantomjs
+756 verbose gentlyRm vacuuming /Users/sw/.npm/piece-length
+757 verbose gentlyRm vacuuming /Users/sw/.npm/plist-with-patches
+758 verbose gentlyRm vacuuming /Users/sw/.npm/pngquant-bin
+759 verbose gentlyRm vacuuming /Users/sw/.npm/portfinder
+760 verbose gentlyRm vacuuming /Users/sw/.npm/portscanner
+761 verbose gentlyRm vacuuming /Users/sw/.npm/portscanner-plus
+762 verbose gentlyRm vacuuming /Users/sw/.npm/postcss
+763 verbose gentlyRm vacuuming /Users/sw/.npm/prelude-ls
+764 verbose gentlyRm vacuuming /Users/sw/.npm/prepend-http
+765 verbose gentlyRm vacuuming /Users/sw/.npm/pretty-bytes
+766 verbose gentlyRm vacuuming /Users/sw/.npm/pretty-hrtime
+767 verbose gentlyRm vacuuming /Users/sw/.npm/pretty-ms
+768 verbose gentlyRm vacuuming /Users/sw/.npm/prettysize
+769 verbose gentlyRm vacuuming /Users/sw/.npm/process
+770 verbose gentlyRm vacuuming /Users/sw/.npm/progress
+771 verbose gentlyRm vacuuming /Users/sw/.npm/promise
+772 verbose gentlyRm vacuuming /Users/sw/.npm/promptly
+773 verbose gentlyRm vacuuming /Users/sw/.npm/propprop
+774 verbose gentlyRm vacuuming /Users/sw/.npm/proto-list
+775 verbose gentlyRm vacuuming /Users/sw/.npm/protobufjs
+776 verbose gentlyRm vacuuming /Users/sw/.npm/proxy-addr
+777 verbose gentlyRm vacuuming /Users/sw/.npm/ps-tree
+778 verbose gentlyRm vacuuming /Users/sw/.npm/psi
+779 verbose gentlyRm vacuuming /Users/sw/.npm/public-encrypt
+780 verbose gentlyRm vacuuming /Users/sw/.npm/pump
+781 verbose gentlyRm vacuuming /Users/sw/.npm/punycode
+782 verbose gentlyRm vacuuming /Users/sw/.npm/q
+783 verbose gentlyRm vacuuming /Users/sw/.npm/qs
+784 verbose gentlyRm vacuuming /Users/sw/.npm/query-string
+785 verbose gentlyRm vacuuming /Users/sw/.npm/querystring
+786 verbose gentlyRm vacuuming /Users/sw/.npm/querystring-es3
+787 verbose gentlyRm vacuuming /Users/sw/.npm/random-access-file
+788 verbose gentlyRm vacuuming /Users/sw/.npm/randombytes
+789 verbose gentlyRm vacuuming /Users/sw/.npm/range-parser
+790 verbose gentlyRm vacuuming /Users/sw/.npm/raw-body
+791 verbose gentlyRm vacuuming /Users/sw/.npm/rc
+792 verbose gentlyRm vacuuming /Users/sw/.npm/rcfinder
+793 verbose gentlyRm vacuuming /Users/sw/.npm/rcloader
+794 verbose gentlyRm vacuuming /Users/sw/.npm/re-emitter
+795 verbose gentlyRm vacuuming /Users/sw/.npm/read
+796 verbose gentlyRm vacuuming /Users/sw/.npm/read-all-stream
+797 verbose gentlyRm vacuuming /Users/sw/.npm/read-chunk
+798 verbose gentlyRm vacuuming /Users/sw/.npm/read-package-json
+799 verbose gentlyRm vacuuming /Users/sw/.npm/readable-stream
+800 verbose gentlyRm vacuuming /Users/sw/.npm/readable-wrap
+801 verbose gentlyRm vacuuming /Users/sw/.npm/readdirp
+802 verbose gentlyRm vacuuming /Users/sw/.npm/readline2
+803 verbose gentlyRm vacuuming /Users/sw/.npm/redeyed
+804 verbose gentlyRm vacuuming /Users/sw/.npm/regexp-clone
+805 verbose gentlyRm vacuuming /Users/sw/.npm/registry-url
+806 verbose gentlyRm vacuuming /Users/sw/.npm/registry.npmjs.org
+807 verbose gentlyRm vacuuming /Users/sw/.npm/relateurl
+808 verbose gentlyRm vacuuming /Users/sw/.npm/repeating
+809 verbose gentlyRm vacuuming /Users/sw/.npm/replace-ext
+810 verbose gentlyRm vacuuming /Users/sw/.npm/request
+811 verbose gentlyRm vacuuming /Users/sw/.npm/request-progress
+812 verbose gentlyRm vacuuming /Users/sw/.npm/request-replay
+813 verbose gentlyRm vacuuming /Users/sw/.npm/requires-port
+814 verbose gentlyRm vacuuming /Users/sw/.npm/resolve
+815 verbose gentlyRm vacuuming /Users/sw/.npm/resp-modifier
+816 verbose gentlyRm vacuuming /Users/sw/.npm/response-time
+817 verbose gentlyRm vacuuming /Users/sw/.npm/retry
+818 verbose gentlyRm vacuuming /Users/sw/.npm/rfile
+819 verbose gentlyRm vacuuming /Users/sw/.npm/rimraf
+820 verbose gentlyRm vacuuming /Users/sw/.npm/ripemd160
+821 verbose gentlyRm vacuuming /Users/sw/.npm/rndm
+822 verbose gentlyRm vacuuming /Users/sw/.npm/ronn
+823 verbose gentlyRm vacuuming /Users/sw/.npm/root-check
+824 verbose gentlyRm vacuuming /Users/sw/.npm/rsyncwrapper
+825 verbose gentlyRm vacuuming /Users/sw/.npm/ruglify
+826 verbose gentlyRm vacuuming /Users/sw/.npm/run-async
+827 verbose gentlyRm vacuuming /Users/sw/.npm/run-parallel
+828 verbose gentlyRm vacuuming /Users/sw/.npm/run-sequence
+829 verbose gentlyRm vacuuming /Users/sw/.npm/runforcover
+830 verbose gentlyRm vacuuming /Users/sw/.npm/rx
+831 verbose gentlyRm vacuuming /Users/sw/.npm/samsam
+832 verbose gentlyRm vacuuming /Users/sw/.npm/sass-graph
+833 verbose gentlyRm vacuuming /Users/sw/.npm/sax
+834 verbose gentlyRm vacuuming /Users/sw/.npm/scmp
+835 verbose gentlyRm vacuuming /Users/sw/.npm/seek-bzip
+836 verbose gentlyRm vacuuming /Users/sw/.npm/semver
+837 verbose gentlyRm vacuuming /Users/sw/.npm/semver-diff
+838 verbose gentlyRm vacuuming /Users/sw/.npm/semver-regex
+839 verbose gentlyRm vacuuming /Users/sw/.npm/semver-truncate
+840 verbose gentlyRm vacuuming /Users/sw/.npm/send
+841 verbose gentlyRm vacuuming /Users/sw/.npm/sentence-case
+842 verbose gentlyRm vacuuming /Users/sw/.npm/sequencify
+843 verbose gentlyRm vacuuming /Users/sw/.npm/serve-favicon
+844 verbose gentlyRm vacuuming /Users/sw/.npm/serve-index
+845 verbose gentlyRm vacuuming /Users/sw/.npm/serve-static
+846 verbose gentlyRm vacuuming /Users/sw/.npm/set-immediate-shim
+847 verbose gentlyRm vacuuming /Users/sw/.npm/setimmediate
+848 verbose gentlyRm vacuuming /Users/sw/.npm/sha.js
+849 verbose gentlyRm vacuuming /Users/sw/.npm/shallow-copy
+850 verbose gentlyRm vacuuming /Users/sw/.npm/shasum
+851 verbose gentlyRm vacuuming /Users/sw/.npm/shell-quote
+852 verbose gentlyRm vacuuming /Users/sw/.npm/shelljs
+853 verbose gentlyRm vacuuming /Users/sw/.npm/shellwords
+854 verbose gentlyRm vacuuming /Users/sw/.npm/sigmund
+855 verbose gentlyRm vacuuming /Users/sw/.npm/simple-bufferstream
+856 verbose gentlyRm vacuuming /Users/sw/.npm/simple-peer
+857 verbose gentlyRm vacuuming /Users/sw/.npm/simple-websocket
+858 verbose gentlyRm vacuuming /Users/sw/.npm/sinon
+859 verbose gentlyRm vacuuming /Users/sw/.npm/sliced
+860 verbose gentlyRm vacuuming /Users/sw/.npm/slide
+861 verbose gentlyRm vacuuming /Users/sw/.npm/snake-case
+862 verbose gentlyRm vacuuming /Users/sw/.npm/sntp
+863 verbose gentlyRm vacuuming /Users/sw/.npm/socket.io
+864 verbose gentlyRm vacuuming /Users/sw/.npm/socket.io-adapter
+865 verbose gentlyRm vacuuming /Users/sw/.npm/socket.io-client
+866 verbose gentlyRm vacuuming /Users/sw/.npm/socket.io-parser
+867 verbose gentlyRm vacuuming /Users/sw/.npm/sort-keys
+868 verbose gentlyRm vacuuming /Users/sw/.npm/sort-on
+869 verbose gentlyRm vacuuming /Users/sw/.npm/source-map
+870 verbose gentlyRm vacuuming /Users/sw/.npm/speedometer
+871 verbose gentlyRm vacuuming /Users/sw/.npm/split
+872 verbose gentlyRm vacuuming /Users/sw/.npm/sprintf-js
+873 verbose gentlyRm vacuuming /Users/sw/.npm/squeak
+874 verbose gentlyRm vacuuming /Users/sw/.npm/ssh2
+875 verbose gentlyRm vacuuming /Users/sw/.npm/stat-mode
+876 verbose gentlyRm vacuuming /Users/sw/.npm/statuses
+877 verbose gentlyRm vacuuming /Users/sw/.npm/stream-browserify
+878 verbose gentlyRm vacuuming /Users/sw/.npm/stream-combiner
+879 verbose gentlyRm vacuuming /Users/sw/.npm/stream-combiner2
+880 verbose gentlyRm vacuuming /Users/sw/.npm/stream-consume
+881 verbose gentlyRm vacuuming /Users/sw/.npm/stream-counter
+882 verbose gentlyRm vacuuming /Users/sw/.npm/stream-log
+883 verbose gentlyRm vacuuming /Users/sw/.npm/stream-splicer
+884 verbose gentlyRm vacuuming /Users/sw/.npm/stream-to-array
+885 verbose gentlyRm vacuuming /Users/sw/.npm/streamsearch
+886 verbose gentlyRm vacuuming /Users/sw/.npm/string
+887 verbose gentlyRm vacuuming /Users/sw/.npm/string-length
+888 verbose gentlyRm vacuuming /Users/sw/.npm/string-template
+889 verbose gentlyRm vacuuming /Users/sw/.npm/string2compact
+890 verbose gentlyRm vacuuming /Users/sw/.npm/string_decoder
+891 verbose gentlyRm vacuuming /Users/sw/.npm/stringify-object
+892 verbose gentlyRm vacuuming /Users/sw/.npm/stringstream
+893 verbose gentlyRm vacuuming /Users/sw/.npm/strip-ansi
+894 verbose gentlyRm vacuuming /Users/sw/.npm/strip-bom
+895 verbose gentlyRm vacuuming /Users/sw/.npm/strip-dirs
+896 verbose gentlyRm vacuuming /Users/sw/.npm/strip-json-comments
+897 verbose gentlyRm vacuuming /Users/sw/.npm/strip-url-auth
+898 verbose gentlyRm vacuuming /Users/sw/.npm/subarg
+899 verbose gentlyRm vacuuming /Users/sw/.npm/sudo-block
+900 verbose gentlyRm vacuuming /Users/sw/.npm/sum-up
+901 verbose gentlyRm vacuuming /Users/sw/.npm/supports-color
+902 verbose gentlyRm vacuuming /Users/sw/.npm/svgo
+903 verbose gentlyRm vacuuming /Users/sw/.npm/swap-case
+904 verbose gentlyRm vacuuming /Users/sw/.npm/syntax-error
+905 verbose gentlyRm vacuuming /Users/sw/.npm/taketalk
+906 verbose gentlyRm vacuuming /Users/sw/.npm/tap
+907 verbose gentlyRm vacuuming /Users/sw/.npm/tap-consumer
+908 verbose gentlyRm vacuuming /Users/sw/.npm/tap-results
+909 verbose gentlyRm vacuuming /Users/sw/.npm/tar
+910 verbose gentlyRm vacuuming /Users/sw/.npm/tar-fs
+911 verbose gentlyRm vacuuming /Users/sw/.npm/tar-stream
+912 verbose gentlyRm vacuuming /Users/sw/.npm/temp
+913 verbose gentlyRm vacuuming /Users/sw/.npm/temp-write
+914 verbose gentlyRm vacuuming /Users/sw/.npm/tempfile
+915 verbose gentlyRm vacuuming /Users/sw/.npm/ternary-stream
+916 verbose gentlyRm vacuuming /Users/sw/.npm/text-table
+917 verbose gentlyRm vacuuming /Users/sw/.npm/textextensions
+918 verbose gentlyRm vacuuming /Users/sw/.npm/tfunk
+919 verbose gentlyRm vacuuming /Users/sw/.npm/thirty-two
+920 verbose gentlyRm vacuuming /Users/sw/.npm/throttleit
+921 verbose gentlyRm vacuuming /Users/sw/.npm/through
+922 verbose gentlyRm vacuuming /Users/sw/.npm/through2
+923 verbose gentlyRm vacuuming /Users/sw/.npm/through2-concurrent
+924 verbose gentlyRm vacuuming /Users/sw/.npm/thunky
+925 verbose gentlyRm vacuuming /Users/sw/.npm/tildify
+926 verbose gentlyRm vacuuming /Users/sw/.npm/time-grunt
+927 verbose gentlyRm vacuuming /Users/sw/.npm/timed-out
+928 verbose gentlyRm vacuuming /Users/sw/.npm/timers-browserify
+929 verbose gentlyRm vacuuming /Users/sw/.npm/timers-ext
+930 verbose gentlyRm vacuuming /Users/sw/.npm/tiny-lr
+931 verbose gentlyRm vacuuming /Users/sw/.npm/tiny-lr-fork
+932 verbose gentlyRm vacuuming /Users/sw/.npm/tinycolor
+933 verbose gentlyRm vacuuming /Users/sw/.npm/title-case
+934 verbose gentlyRm vacuuming /Users/sw/.npm/titleize
+935 verbose gentlyRm vacuuming /Users/sw/.npm/tmp
+936 verbose gentlyRm vacuuming /Users/sw/.npm/to-array
+937 verbose gentlyRm vacuuming /Users/sw/.npm/torrent-discovery
+938 verbose gentlyRm vacuuming /Users/sw/.npm/touch
+939 verbose gentlyRm vacuuming /Users/sw/.npm/tough-cookie
+940 verbose gentlyRm vacuuming /Users/sw/.npm/transformers
+941 verbose gentlyRm vacuuming /Users/sw/.npm/traverse
+942 verbose gentlyRm vacuuming /Users/sw/.npm/tty-browserify
+943 verbose gentlyRm vacuuming /Users/sw/.npm/tunnel-agent
+944 verbose gentlyRm vacuuming /Users/sw/.npm/twig
+945 verbose gentlyRm vacuuming /Users/sw/.npm/type-check
+946 verbose gentlyRm vacuuming /Users/sw/.npm/type-is
+947 verbose gentlyRm vacuuming /Users/sw/.npm/typed.js
+948 verbose gentlyRm vacuuming /Users/sw/.npm/typedarray
+949 verbose gentlyRm vacuuming /Users/sw/.npm/typedarray-to-buffer
+950 verbose gentlyRm vacuuming /Users/sw/.npm/ua-parser-js
+951 verbose gentlyRm vacuuming /Users/sw/.npm/uglify-js
+952 verbose gentlyRm vacuuming /Users/sw/.npm/uglify-to-browserify
+953 verbose gentlyRm vacuuming /Users/sw/.npm/uid-number
+954 verbose gentlyRm vacuuming /Users/sw/.npm/uid-safe
+955 verbose gentlyRm vacuuming /Users/sw/.npm/uid2
+956 verbose gentlyRm vacuuming /Users/sw/.npm/ultron
+957 verbose gentlyRm vacuuming /Users/sw/.npm/umd
+958 verbose gentlyRm vacuuming /Users/sw/.npm/uncss
+959 verbose gentlyRm vacuuming /Users/sw/.npm/underscore
+960 verbose gentlyRm vacuuming /Users/sw/.npm/underscore.string
+961 verbose gentlyRm vacuuming /Users/sw/.npm/unique-stream
+962 verbose gentlyRm vacuuming /Users/sw/.npm/untildify
+963 verbose gentlyRm vacuuming /Users/sw/.npm/update-notifier
+964 verbose gentlyRm vacuuming /Users/sw/.npm/upper-case
+965 verbose gentlyRm vacuuming /Users/sw/.npm/upper-case-first
+966 verbose gentlyRm vacuuming /Users/sw/.npm/uri-path
+967 verbose gentlyRm vacuuming /Users/sw/.npm/url
+968 verbose gentlyRm vacuuming /Users/sw/.npm/url-regex
+969 verbose gentlyRm vacuuming /Users/sw/.npm/user-home
+970 verbose gentlyRm vacuuming /Users/sw/.npm/ut_metadata
+971 verbose gentlyRm vacuuming /Users/sw/.npm/ut_pex
+972 verbose gentlyRm vacuuming /Users/sw/.npm/utf8
+973 verbose gentlyRm vacuuming /Users/sw/.npm/util
+974 verbose gentlyRm vacuuming /Users/sw/.npm/utile
+975 verbose gentlyRm vacuuming /Users/sw/.npm/utils-merge
+976 verbose gentlyRm vacuuming /Users/sw/.npm/uuid
+977 verbose gentlyRm vacuuming /Users/sw/.npm/v8flags
+978 verbose gentlyRm vacuuming /Users/sw/.npm/vary
+979 verbose gentlyRm vacuuming /Users/sw/.npm/vhost
+980 verbose gentlyRm vacuuming /Users/sw/.npm/vinyl
+981 verbose gentlyRm vacuuming /Users/sw/.npm/vinyl-assign
+982 verbose gentlyRm vacuuming /Users/sw/.npm/vinyl-buffer
+983 verbose gentlyRm vacuuming /Users/sw/.npm/vinyl-bufferstream
+984 verbose gentlyRm vacuuming /Users/sw/.npm/vinyl-file
+985 verbose gentlyRm vacuuming /Users/sw/.npm/vinyl-fs
+986 verbose gentlyRm vacuuming /Users/sw/.npm/vinyl-source-stream
+987 verbose gentlyRm vacuuming /Users/sw/.npm/vinyl-sourcemaps-apply
+988 verbose gentlyRm vacuuming /Users/sw/.npm/vm-browserify
+989 verbose gentlyRm vacuuming /Users/sw/.npm/void-elements
+990 verbose gentlyRm vacuuming /Users/sw/.npm/walk
+991 verbose gentlyRm vacuuming /Users/sw/.npm/ware
+992 verbose gentlyRm vacuuming /Users/sw/.npm/watchify
+993 verbose gentlyRm vacuuming /Users/sw/.npm/websocket-driver
+994 verbose gentlyRm vacuuming /Users/sw/.npm/websocket-extensions
+995 verbose gentlyRm vacuuming /Users/sw/.npm/webtorrent
+996 verbose gentlyRm vacuuming /Users/sw/.npm/webtorrent-swarm
+997 verbose gentlyRm vacuuming /Users/sw/.npm/webtorrent-tracker
+998 verbose gentlyRm vacuuming /Users/sw/.npm/weinre
+999 verbose gentlyRm vacuuming /Users/sw/.npm/when
+1000 verbose gentlyRm vacuuming /Users/sw/.npm/whet.extend
+1001 verbose gentlyRm vacuuming /Users/sw/.npm/which
+1002 verbose gentlyRm vacuuming /Users/sw/.npm/win-release
+1003 verbose gentlyRm vacuuming /Users/sw/.npm/win-spawn
+1004 verbose gentlyRm vacuuming /Users/sw/.npm/window-size
+1005 verbose gentlyRm vacuuming /Users/sw/.npm/windows-no-runnable
+1006 verbose gentlyRm vacuuming /Users/sw/.npm/wiredep
+1007 verbose gentlyRm vacuuming /Users/sw/.npm/with
+1008 verbose gentlyRm vacuuming /Users/sw/.npm/word-wrap
+1009 verbose gentlyRm vacuuming /Users/sw/.npm/wordwrap
+1010 verbose gentlyRm vacuuming /Users/sw/.npm/wrap-fn
+1011 verbose gentlyRm vacuuming /Users/sw/.npm/wrappy
+1012 verbose gentlyRm vacuuming /Users/sw/.npm/ws
+1013 verbose gentlyRm vacuuming /Users/sw/.npm/xdg-basedir
+1014 verbose gentlyRm vacuuming /Users/sw/.npm/xml2js
+1015 verbose gentlyRm vacuuming /Users/sw/.npm/xmlbuilder
+1016 verbose gentlyRm vacuuming /Users/sw/.npm/xmldom
+1017 verbose gentlyRm vacuuming /Users/sw/.npm/xmlhttprequest
+1018 verbose gentlyRm vacuuming /Users/sw/.npm/xtend
+1019 verbose gentlyRm vacuuming /Users/sw/.npm/yamlish
+1020 verbose gentlyRm vacuuming /Users/sw/.npm/yargs
+1021 verbose gentlyRm vacuuming /Users/sw/.npm/yauzl
+1022 verbose gentlyRm vacuuming /Users/sw/.npm/yeoman-assert
+1023 verbose gentlyRm vacuuming /Users/sw/.npm/yeoman-character
+1024 verbose gentlyRm vacuuming /Users/sw/.npm/yeoman-doctor
+1025 verbose gentlyRm vacuuming /Users/sw/.npm/yeoman-environment
+1026 verbose gentlyRm vacuuming /Users/sw/.npm/yeoman-generator
+1027 verbose gentlyRm vacuuming /Users/sw/.npm/yeoman-welcome
+1028 verbose gentlyRm vacuuming /Users/sw/.npm/yo
+1029 verbose gentlyRm vacuuming /Users/sw/.npm/yosay
+1030 silly gentlyRm purging /Users/sw/.npm/Base64
+1031 silly gentlyRm purging /Users/sw/.npm/CSSselect
+1032 silly gentlyRm purging /Users/sw/.npm/CSSwhat
+1033 silly gentlyRm purging /Users/sw/.npm/JSONStream
+1034 silly gentlyRm purging /Users/sw/.npm/_git-remotes
+1035 silly gentlyRm purging /Users/sw/.npm/_locks
+1036 silly gentlyRm purging /Users/sw/.npm/abbrev
+1037 silly gentlyRm purging /Users/sw/.npm/accepts
+1038 silly gentlyRm purging /Users/sw/.npm/acorn
+1039 silly gentlyRm purging /Users/sw/.npm/acorn-globals
+1040 silly gentlyRm purging /Users/sw/.npm/addr-to-ip-port
+1041 silly gentlyRm purging /Users/sw/.npm/adm-zip
+1042 silly gentlyRm purging /Users/sw/.npm/after
+1043 silly gentlyRm purging /Users/sw/.npm/airplay-js
+1044 silly gentlyRm purging /Users/sw/.npm/amdefine
+1045 silly gentlyRm purging /Users/sw/.npm/angular
+1046 silly gentlyRm purging /Users/sw/.npm/angular-route
+1047 silly gentlyRm purging /Users/sw/.npm/angular-sanitize
+1048 silly gentlyRm purging /Users/sw/.npm/angular-touch
+1049 silly gentlyRm purging /Users/sw/.npm/angular-ui-router
+1050 silly gentlyRm purging /Users/sw/.npm/ansi-regex
+1051 silly gentlyRm purging /Users/sw/.npm/ansi-styles
+1052 silly gentlyRm purging /Users/sw/.npm/ansicolors
+1053 silly gentlyRm purging /Users/sw/.npm/archive-type
+1054 silly gentlyRm purging /Users/sw/.npm/archy
+1055 silly gentlyRm purging /Users/sw/.npm/argh
+1056 silly gentlyRm purging /Users/sw/.npm/argparse
+1057 silly gentlyRm purging /Users/sw/.npm/array-differ
+1058 silly gentlyRm purging /Users/sw/.npm/array-filter
+1059 silly gentlyRm purging /Users/sw/.npm/array-map
+1060 silly gentlyRm purging /Users/sw/.npm/array-reduce
+1061 silly gentlyRm purging /Users/sw/.npm/array-union
+1062 silly gentlyRm purging /Users/sw/.npm/array-uniq
+1063 silly gentlyRm purging /Users/sw/.npm/arraybuffer.slice
+1064 silly gentlyRm purging /Users/sw/.npm/asap
+1065 silly gentlyRm purging /Users/sw/.npm/ascli
+1066 silly gentlyRm purging /Users/sw/.npm/asn1
+1067 silly gentlyRm purging /Users/sw/.npm/asn1.js
+1068 silly gentlyRm purging /Users/sw/.npm/asn1.js-rfc3280
+1069 silly gentlyRm purging /Users/sw/.npm/assert
+1070 silly gentlyRm purging /Users/sw/.npm/assert-plus
+1071 silly gentlyRm purging /Users/sw/.npm/ast-query
+1072 silly gentlyRm purging /Users/sw/.npm/astw
+1073 silly gentlyRm purging /Users/sw/.npm/async
+1074 silly gentlyRm purging /Users/sw/.npm/async-each
+1075 silly gentlyRm purging /Users/sw/.npm/async-each-series
+1076 silly gentlyRm purging /Users/sw/.npm/autoprefixer
+1077 silly gentlyRm purging /Users/sw/.npm/autoprefixer-core
+1078 silly gentlyRm purging /Users/sw/.npm/aws-sign
+1079 silly gentlyRm purging /Users/sw/.npm/aws-sign2
+1080 silly gentlyRm purging /Users/sw/.npm/backo2
+1081 silly gentlyRm purging /Users/sw/.npm/balanced-match
+1082 silly gentlyRm purging /Users/sw/.npm/base64-arraybuffer
+1083 silly gentlyRm purging /Users/sw/.npm/base64-js
+1084 silly gentlyRm purging /Users/sw/.npm/base64-url
+1085 silly gentlyRm purging /Users/sw/.npm/base64id
+1086 silly gentlyRm purging /Users/sw/.npm/base64url
+1087 silly gentlyRm purging /Users/sw/.npm/basic-auth
+1088 silly gentlyRm purging /Users/sw/.npm/basic-auth-connect
+1089 silly gentlyRm purging /Users/sw/.npm/batch
+1090 silly gentlyRm purging /Users/sw/.npm/beeper
+1091 silly gentlyRm purging /Users/sw/.npm/benchmark
+1092 silly gentlyRm purging /Users/sw/.npm/bencode
+1093 silly gentlyRm purging /Users/sw/.npm/better-assert
+1094 silly gentlyRm purging /Users/sw/.npm/bin-build
+1095 silly gentlyRm purging /Users/sw/.npm/bin-check
+1096 silly gentlyRm purging /Users/sw/.npm/bin-version
+1097 silly gentlyRm purging /Users/sw/.npm/bin-version-check
+1098 silly gentlyRm purging /Users/sw/.npm/bin-wrapper
+1099 silly gentlyRm purging /Users/sw/.npm/binary
+1100 silly gentlyRm purging /Users/sw/.npm/binaryextensions
+1101 silly gentlyRm purging /Users/sw/.npm/bitfield
+1102 silly gentlyRm purging /Users/sw/.npm/bittorrent-dht
+1103 silly gentlyRm purging /Users/sw/.npm/bittorrent-protocol
+1104 silly gentlyRm purging /Users/sw/.npm/bittorrent-swarm
+1105 silly gentlyRm purging /Users/sw/.npm/bittorrent-tracker
+1106 silly gentlyRm purging /Users/sw/.npm/bl
+1107 silly gentlyRm purging /Users/sw/.npm/blob
+1108 silly gentlyRm purging /Users/sw/.npm/block-stream
+1109 silly gentlyRm purging /Users/sw/.npm/bluebird
+1110 silly gentlyRm purging /Users/sw/.npm/bn.js
+1111 silly gentlyRm purging /Users/sw/.npm/body-parser
+1112 silly gentlyRm purging /Users/sw/.npm/boom
+1113 silly gentlyRm purging /Users/sw/.npm/bower
+1114 silly gentlyRm purging /Users/sw/.npm/bower-config
+1115 silly gentlyRm purging /Users/sw/.npm/bower-endpoint-parser
+1116 silly gentlyRm purging /Users/sw/.npm/bower-json
+1117 silly gentlyRm purging /Users/sw/.npm/bower-logger
+1118 silly gentlyRm purging /Users/sw/.npm/bower-registry-client
+1119 silly gentlyRm purging /Users/sw/.npm/brace-expansion
+1120 silly gentlyRm purging /Users/sw/.npm/brorand
+1121 silly gentlyRm purging /Users/sw/.npm/browser-pack
+1122 silly gentlyRm purging /Users/sw/.npm/browser-resolve
+1123 silly gentlyRm purging /Users/sw/.npm/browser-sync
+1124 silly gentlyRm purging /Users/sw/.npm/browser-sync-client
+1125 silly gentlyRm purging /Users/sw/.npm/browser-sync-ui
+1126 silly gentlyRm purging /Users/sw/.npm/browserify
+1127 silly gentlyRm purging /Users/sw/.npm/browserify-aes
+1128 silly gentlyRm purging /Users/sw/.npm/browserify-rsa
+1129 silly gentlyRm purging /Users/sw/.npm/browserify-sign
+1130 silly gentlyRm purging /Users/sw/.npm/browserify-zlib
+1131 silly gentlyRm purging /Users/sw/.npm/browserslist
+1132 silly gentlyRm purging /Users/sw/.npm/bson
+1133 silly gentlyRm purging /Users/sw/.npm/buffer
+1134 silly gentlyRm purging /Users/sw/.npm/buffer-crc32
+1135 silly gentlyRm purging /Users/sw/.npm/buffer-equal
+1136 silly gentlyRm purging /Users/sw/.npm/buffer-to-vinyl
+1137 silly gentlyRm purging /Users/sw/.npm/buffers
+1138 silly gentlyRm purging /Users/sw/.npm/bufferstreams
+1139 silly gentlyRm purging /Users/sw/.npm/bufferview
+1140 silly gentlyRm purging /Users/sw/.npm/builtins
+1141 silly gentlyRm purging /Users/sw/.npm/bunker
+1142 silly gentlyRm purging /Users/sw/.npm/burrito
+1143 silly gentlyRm purging /Users/sw/.npm/bytebuffer
+1144 silly gentlyRm purging /Users/sw/.npm/bytes
+1145 silly gentlyRm purging /Users/sw/.npm/cache-swap
+1146 silly gentlyRm purging /Users/sw/.npm/callsite
+1147 silly gentlyRm purging /Users/sw/.npm/camel-case
+1148 silly gentlyRm purging /Users/sw/.npm/camelcase
+1149 silly gentlyRm purging /Users/sw/.npm/camelcase-keys
+1150 silly gentlyRm purging /Users/sw/.npm/caniuse-db
+1151 silly gentlyRm purging /Users/sw/.npm/cardinal
+1152 silly gentlyRm purging /Users/sw/.npm/caseless
+1153 silly gentlyRm purging /Users/sw/.npm/castv2
+1154 silly gentlyRm purging /Users/sw/.npm/castv2-client
+1155 silly gentlyRm purging /Users/sw/.npm/chainsaw
+1156 silly gentlyRm purging /Users/sw/.npm/chalk
+1157 silly gentlyRm purging /Users/sw/.npm/change-case
+1158 silly gentlyRm purging /Users/sw/.npm/character-parser
+1159 silly gentlyRm purging /Users/sw/.npm/charm
+1160 silly gentlyRm purging /Users/sw/.npm/cheerio
+1161 silly gentlyRm purging /Users/sw/.npm/chmodr
+1162 silly gentlyRm purging /Users/sw/.npm/chokidar
+1163 silly gentlyRm purging /Users/sw/.npm/chromecast-js
+1164 silly gentlyRm purging /Users/sw/.npm/cint
+1165 silly gentlyRm purging /Users/sw/.npm/cl-strings
+1166 silly gentlyRm purging /Users/sw/.npm/class-extend
+1167 silly gentlyRm purging /Users/sw/.npm/clean-css
+1168 silly gentlyRm purging /Users/sw/.npm/cli
+1169 silly gentlyRm purging /Users/sw/.npm/cli-color
+1170 silly gentlyRm purging /Users/sw/.npm/cli-table
+1171 silly gentlyRm purging /Users/sw/.npm/clivas
+1172 silly gentlyRm purging /Users/sw/.npm/clone
+1173 silly gentlyRm purging /Users/sw/.npm/clone-stats
+1174 silly gentlyRm purging /Users/sw/.npm/closest-to
+1175 silly gentlyRm purging /Users/sw/.npm/co
+1176 silly gentlyRm purging /Users/sw/.npm/coa
+1177 silly gentlyRm purging /Users/sw/.npm/coffee-script
+1178 silly gentlyRm purging /Users/sw/.npm/colors
+1179 silly gentlyRm purging /Users/sw/.npm/colour
+1180 silly gentlyRm purging /Users/sw/.npm/combine-source-map
+1181 silly gentlyRm purging /Users/sw/.npm/combine-stream
+1182 silly gentlyRm purging /Users/sw/.npm/combined-stream
+1183 silly gentlyRm purging /Users/sw/.npm/commander
+1184 silly gentlyRm purging /Users/sw/.npm/commondir
+1185 silly gentlyRm purging /Users/sw/.npm/compact2string
+1186 silly gentlyRm purging /Users/sw/.npm/component-bind
+1187 silly gentlyRm purging /Users/sw/.npm/component-emitter
+1188 silly gentlyRm purging /Users/sw/.npm/component-inherit
+1189 silly gentlyRm purging /Users/sw/.npm/compressible
+1190 silly gentlyRm purging /Users/sw/.npm/compression
+1191 silly gentlyRm purging /Users/sw/.npm/concat-map
+1192 silly gentlyRm purging /Users/sw/.npm/concat-stream
+1193 silly gentlyRm purging /Users/sw/.npm/concat-with-sourcemaps
+1194 silly gentlyRm purging /Users/sw/.npm/config-chain
+1195 silly gentlyRm purging /Users/sw/.npm/configstore
+1196 silly gentlyRm purging /Users/sw/.npm/connect
+1197 silly gentlyRm purging /Users/sw/.npm/connect-history-api-fallback
+1198 silly gentlyRm purging /Users/sw/.npm/connect-livereload
+1199 silly gentlyRm purging /Users/sw/.npm/connect-timeout
+1200 silly gentlyRm purging /Users/sw/.npm/console-browserify
+1201 silly gentlyRm purging /Users/sw/.npm/constant-case
+1202 silly gentlyRm purging /Users/sw/.npm/constantinople
+1203 silly gentlyRm purging /Users/sw/.npm/constants-browserify
+1204 silly gentlyRm purging /Users/sw/.npm/content-disposition
+1205 silly gentlyRm purging /Users/sw/.npm/convert-source-map
+1206 silly gentlyRm purging /Users/sw/.npm/cookie
+1207 silly gentlyRm purging /Users/sw/.npm/cookie-jar
+1208 silly gentlyRm purging /Users/sw/.npm/cookie-parser
+1209 silly gentlyRm purging /Users/sw/.npm/cookie-signature
+1210 silly gentlyRm purging /Users/sw/.npm/core-util-is
+1211 silly gentlyRm purging /Users/sw/.npm/crc
+1212 silly gentlyRm purging /Users/sw/.npm/create-ecdh
+1213 silly gentlyRm purging /Users/sw/.npm/create-hash
+1214 silly gentlyRm purging /Users/sw/.npm/create-hmac
+1215 silly gentlyRm purging /Users/sw/.npm/create-torrent
+1216 silly gentlyRm purging /Users/sw/.npm/cross-spawn
+1217 silly gentlyRm purging /Users/sw/.npm/cryptiles
+1218 silly gentlyRm purging /Users/sw/.npm/crypto-browserify
+1219 silly gentlyRm purging /Users/sw/.npm/csrf
+1220 silly gentlyRm purging /Users/sw/.npm/csrf-tokens
+1221 silly gentlyRm purging /Users/sw/.npm/css
+1222 silly gentlyRm purging /Users/sw/.npm/css-parse
+1223 silly gentlyRm purging /Users/sw/.npm/css-stringify
+1224 silly gentlyRm purging /Users/sw/.npm/csslint
+1225 silly gentlyRm purging /Users/sw/.npm/csso
+1226 silly gentlyRm purging /Users/sw/.npm/csurf
+1227 silly gentlyRm purging /Users/sw/.npm/ctype
+1228 silly gentlyRm purging /Users/sw/.npm/d
+1229 silly gentlyRm purging /Users/sw/.npm/dargs
+1230 silly gentlyRm purging /Users/sw/.npm/date-now
+1231 silly gentlyRm purging /Users/sw/.npm/date-time
+1232 silly gentlyRm purging /Users/sw/.npm/dateformat
+1233 silly gentlyRm purging /Users/sw/.npm/debug
+1234 silly gentlyRm purging /Users/sw/.npm/decamelize
+1235 silly gentlyRm purging /Users/sw/.npm/decompress
+1236 silly gentlyRm purging /Users/sw/.npm/decompress-tar
+1237 silly gentlyRm purging /Users/sw/.npm/decompress-tarbz2
+1238 silly gentlyRm purging /Users/sw/.npm/decompress-targz
+1239 silly gentlyRm purging /Users/sw/.npm/decompress-unzip
+1240 silly gentlyRm purging /Users/sw/.npm/decompress-zip
+1241 silly gentlyRm purging /Users/sw/.npm/deep-equal
+1242 silly gentlyRm purging /Users/sw/.npm/deep-extend
+1243 silly gentlyRm purging /Users/sw/.npm/deep-is
+1244 silly gentlyRm purging /Users/sw/.npm/deepmerge
+1245 silly gentlyRm purging /Users/sw/.npm/default-uid
+1246 silly gentlyRm purging /Users/sw/.npm/defaults
+1247 silly gentlyRm purging /Users/sw/.npm/defined
+1248 silly gentlyRm purging /Users/sw/.npm/del
+1249 silly gentlyRm purging /Users/sw/.npm/delayed-stream
+1250 silly gentlyRm purging /Users/sw/.npm/depd
+1251 silly gentlyRm purging /Users/sw/.npm/deprecated
+1252 silly gentlyRm purging /Users/sw/.npm/deps-sort
+1253 silly gentlyRm purging /Users/sw/.npm/destroy
+1254 silly gentlyRm purging /Users/sw/.npm/detect-conflict
+1255 silly gentlyRm purging /Users/sw/.npm/detective
+1256 silly gentlyRm purging /Users/sw/.npm/dev-ip
+1257 silly gentlyRm purging /Users/sw/.npm/dezalgo
+1258 silly gentlyRm purging /Users/sw/.npm/diff
+1259 silly gentlyRm purging /Users/sw/.npm/diffie-hellman
+1260 silly gentlyRm purging /Users/sw/.npm/difflet
+1261 silly gentlyRm purging /Users/sw/.npm/dom-serializer
+1262 silly gentlyRm purging /Users/sw/.npm/domain-browser
+1263 silly gentlyRm purging /Users/sw/.npm/domelementtype
+1264 silly gentlyRm purging /Users/sw/.npm/domhandler
+1265 silly gentlyRm purging /Users/sw/.npm/domutils
+1266 silly gentlyRm purging /Users/sw/.npm/dot-case
+1267 silly gentlyRm purging /Users/sw/.npm/dot-prop
+1268 silly gentlyRm purging /Users/sw/.npm/downgrade-root
+1269 silly gentlyRm purging /Users/sw/.npm/download
+1270 silly gentlyRm purging /Users/sw/.npm/download-status
+1271 silly gentlyRm purging /Users/sw/.npm/duplexer
+1272 silly gentlyRm purging /Users/sw/.npm/duplexer2
+1273 silly gentlyRm purging /Users/sw/.npm/duplexify
+1274 silly gentlyRm purging /Users/sw/.npm/each-async
+1275 silly gentlyRm purging /Users/sw/.npm/easy-extender
+1276 silly gentlyRm purging /Users/sw/.npm/eazy-logger
+1277 silly gentlyRm purging /Users/sw/.npm/ee-first
+1278 silly gentlyRm purging /Users/sw/.npm/elliptic
+1279 silly gentlyRm purging /Users/sw/.npm/emitter
+1280 silly gentlyRm purging /Users/sw/.npm/emitter-steward
+1281 silly gentlyRm purging /Users/sw/.npm/end-of-stream
+1282 silly gentlyRm purging /Users/sw/.npm/engine.io
+1283 silly gentlyRm purging /Users/sw/.npm/engine.io-client
+1284 silly gentlyRm purging /Users/sw/.npm/engine.io-parser
+1285 silly gentlyRm purging /Users/sw/.npm/entities
+1286 silly gentlyRm purging /Users/sw/.npm/errorhandler
+1287 silly gentlyRm purging /Users/sw/.npm/es5-ext
+1288 silly gentlyRm purging /Users/sw/.npm/es6-iterator
+1289 silly gentlyRm purging /Users/sw/.npm/es6-symbol
+1290 silly gentlyRm purging /Users/sw/.npm/es6-weak-map
+1291 silly gentlyRm purging /Users/sw/.npm/escape-html
+1292 silly gentlyRm purging /Users/sw/.npm/escape-string-regexp
+1293 silly gentlyRm purging /Users/sw/.npm/escodegen
+1294 silly gentlyRm purging /Users/sw/.npm/esprima
+1295 silly gentlyRm purging /Users/sw/.npm/esprima-fb
+1296 silly gentlyRm purging /Users/sw/.npm/estraverse
+1297 silly gentlyRm purging /Users/sw/.npm/esutils
+1298 silly gentlyRm purging /Users/sw/.npm/etag
+1299 silly gentlyRm purging /Users/sw/.npm/event-emitter
+1300 silly gentlyRm purging /Users/sw/.npm/event-stream
+1301 silly gentlyRm purging /Users/sw/.npm/eventemitter2
+1302 silly gentlyRm purging /Users/sw/.npm/eventemitter3
+1303 silly gentlyRm purging /Users/sw/.npm/events
+1304 silly gentlyRm purging /Users/sw/.npm/exec-buffer
+1305 silly gentlyRm purging /Users/sw/.npm/exec-series
+1306 silly gentlyRm purging /Users/sw/.npm/execSync
+1307 silly gentlyRm purging /Users/sw/.npm/execify
+1308 silly gentlyRm purging /Users/sw/.npm/executable
+1309 silly gentlyRm purging /Users/sw/.npm/exit
+1310 silly gentlyRm purging /Users/sw/.npm/express
+1311 silly gentlyRm purging /Users/sw/.npm/express-generator
+1312 silly gentlyRm purging /Users/sw/.npm/express-session
+1313 silly gentlyRm purging /Users/sw/.npm/extend
+1314 silly gentlyRm purging /Users/sw/.npm/extend.js
+1315 silly gentlyRm purging /Users/sw/.npm/fast-levenshtein
+1316 silly gentlyRm purging /Users/sw/.npm/faye-websocket
+1317 silly gentlyRm purging /Users/sw/.npm/fd-slicer
+1318 silly gentlyRm purging /Users/sw/.npm/figures
+1319 silly gentlyRm purging /Users/sw/.npm/file-type
+1320 silly gentlyRm purging /Users/sw/.npm/file-utils
+1321 silly gentlyRm purging /Users/sw/.npm/filestream
+1322 silly gentlyRm purging /Users/sw/.npm/finalhandler
+1323 silly gentlyRm purging /Users/sw/.npm/find-file
+1324 silly gentlyRm purging /Users/sw/.npm/find-index
+1325 silly gentlyRm purging /Users/sw/.npm/find-versions
+1326 silly gentlyRm purging /Users/sw/.npm/findup
+1327 silly gentlyRm purging /Users/sw/.npm/findup-sync
+1328 silly gentlyRm purging /Users/sw/.npm/finished
+1329 silly gentlyRm purging /Users/sw/.npm/first-chunk-stream
+1330 silly gentlyRm purging /Users/sw/.npm/flagged-respawn
+1331 silly gentlyRm purging /Users/sw/.npm/flatten
+1332 silly gentlyRm purging /Users/sw/.npm/for-in
+1333 silly gentlyRm purging /Users/sw/.npm/for-own
+1334 silly gentlyRm purging /Users/sw/.npm/foreachasync
+1335 silly gentlyRm purging /Users/sw/.npm/forever-agent
+1336 silly gentlyRm purging /Users/sw/.npm/fork-stream
+1337 silly gentlyRm purging /Users/sw/.npm/form-data
+1338 silly gentlyRm purging /Users/sw/.npm/formatio
+1339 silly gentlyRm purging /Users/sw/.npm/formidable
+1340 silly gentlyRm purging /Users/sw/.npm/forwarded
+1341 silly gentlyRm purging /Users/sw/.npm/foxy
+1342 silly gentlyRm purging /Users/sw/.npm/fresh
+1343 silly gentlyRm purging /Users/sw/.npm/from
+1344 silly gentlyRm purging /Users/sw/.npm/fs-extra
+1345 silly gentlyRm purging /Users/sw/.npm/fsevents
+1346 silly gentlyRm purging /Users/sw/.npm/fstream
+1347 silly gentlyRm purging /Users/sw/.npm/fstream-ignore
+1348 silly gentlyRm purging /Users/sw/.npm/ftp-response-parser
+1349 silly gentlyRm purging /Users/sw/.npm/fullname
+1350 silly gentlyRm purging /Users/sw/.npm/gapitoken
+1351 silly gentlyRm purging /Users/sw/.npm/gaze
+1352 silly gentlyRm purging /Users/sw/.npm/generator-gulp-webapp
+1353 silly gentlyRm purging /Users/sw/.npm/generator-jekyllized
+1354 silly gentlyRm purging /Users/sw/.npm/generator-jekyllrb
+1355 silly gentlyRm purging /Users/sw/.npm/generator-mocha
+1356 silly gentlyRm purging /Users/sw/.npm/get-stdin
+1357 silly gentlyRm purging /Users/sw/.npm/getobject
+1358 silly gentlyRm purging /Users/sw/.npm/gifsicle
+1359 silly gentlyRm purging /Users/sw/.npm/gift
+1360 silly gentlyRm purging /Users/sw/.npm/git-remote-origin-url
+1361 silly gentlyRm purging /Users/sw/.npm/git-sha1
+1362 silly gentlyRm purging /Users/sw/.npm/gitconfiglocal
+1363 silly gentlyRm purging /Users/sw/.npm/github-url-from-git
+1364 silly gentlyRm purging /Users/sw/.npm/github-url-from-username-repo
+1365 silly gentlyRm purging /Users/sw/.npm/github-username
+1366 silly gentlyRm purging /Users/sw/.npm/glob
+1367 silly gentlyRm purging /Users/sw/.npm/glob-stream
+1368 silly gentlyRm purging /Users/sw/.npm/glob-watcher
+1369 silly gentlyRm purging /Users/sw/.npm/glob2base
+1370 silly gentlyRm purging /Users/sw/.npm/global
+1371 silly gentlyRm purging /Users/sw/.npm/globby
+1372 silly gentlyRm purging /Users/sw/.npm/globule
+1373 silly gentlyRm purging /Users/sw/.npm/googleapis
+1374 silly gentlyRm purging /Users/sw/.npm/got
+1375 silly gentlyRm purging /Users/sw/.npm/graceful-fs
+1376 silly gentlyRm purging /Users/sw/.npm/graceful-readlink
+1377 silly gentlyRm purging /Users/sw/.npm/grouped-queue
+1378 silly gentlyRm purging /Users/sw/.npm/growl
+1379 silly gentlyRm purging /Users/sw/.npm/growly
+1380 silly gentlyRm purging /Users/sw/.npm/grunt
+1381 silly gentlyRm purging /Users/sw/.npm/grunt-autoprefixer
+1382 silly gentlyRm purging /Users/sw/.npm/grunt-browser-sync
+1383 silly gentlyRm purging /Users/sw/.npm/grunt-build-control
+1384 silly gentlyRm purging /Users/sw/.npm/grunt-cli
+1385 silly gentlyRm purging /Users/sw/.npm/grunt-concurrent
+1386 silly gentlyRm purging /Users/sw/.npm/grunt-contrib-clean
+1387 silly gentlyRm purging /Users/sw/.npm/grunt-contrib-compass
+1388 silly gentlyRm purging /Users/sw/.npm/grunt-contrib-concat
+1389 silly gentlyRm purging /Users/sw/.npm/grunt-contrib-connect
+1390 silly gentlyRm purging /Users/sw/.npm/grunt-contrib-copy
+1391 silly gentlyRm purging /Users/sw/.npm/grunt-contrib-csslint
+1392 silly gentlyRm purging /Users/sw/.npm/grunt-contrib-cssmin
+1393 silly gentlyRm purging /Users/sw/.npm/grunt-contrib-htmlmin
+1394 silly gentlyRm purging /Users/sw/.npm/grunt-contrib-imagemin
+1395 silly gentlyRm purging /Users/sw/.npm/grunt-contrib-jshint
+1396 silly gentlyRm purging /Users/sw/.npm/grunt-contrib-sass
+1397 silly gentlyRm purging /Users/sw/.npm/grunt-contrib-uglify
+1398 silly gentlyRm purging /Users/sw/.npm/grunt-contrib-watch
+1399 silly gentlyRm purging /Users/sw/.npm/grunt-exec
+1400 silly gentlyRm purging /Users/sw/.npm/grunt-filerev
+1401 silly gentlyRm purging /Users/sw/.npm/grunt-hologram
+1402 silly gentlyRm purging /Users/sw/.npm/grunt-jekyll
+1403 silly gentlyRm purging /Users/sw/.npm/grunt-legacy-log
+1404 silly gentlyRm purging /Users/sw/.npm/grunt-legacy-util
+1405 silly gentlyRm purging /Users/sw/.npm/grunt-rsync
+1406 silly gentlyRm purging /Users/sw/.npm/grunt-svgmin
+1407 silly gentlyRm purging /Users/sw/.npm/grunt-usemin
+1408 silly gentlyRm purging /Users/sw/.npm/gruntfile-editor
+1409 silly gentlyRm purging /Users/sw/.npm/gulp
+1410 silly gentlyRm purging /Users/sw/.npm/gulp-autoprefixer
+1411 silly gentlyRm purging /Users/sw/.npm/gulp-cache
+1412 silly gentlyRm purging /Users/sw/.npm/gulp-cached
+1413 silly gentlyRm purging /Users/sw/.npm/gulp-changed
+1414 silly gentlyRm purging /Users/sw/.npm/gulp-concat
+1415 silly gentlyRm purging /Users/sw/.npm/gulp-connect
+1416 silly gentlyRm purging /Users/sw/.npm/gulp-csso
+1417 silly gentlyRm purging /Users/sw/.npm/gulp-exit
+1418 silly gentlyRm purging /Users/sw/.npm/gulp-filter
+1419 silly gentlyRm purging /Users/sw/.npm/gulp-ftp
+1420 silly gentlyRm purging /Users/sw/.npm/gulp-gh-pages
+1421 silly gentlyRm purging /Users/sw/.npm/gulp-gzip
+1422 silly gentlyRm purging /Users/sw/.npm/gulp-htmlmin
+1423 silly gentlyRm purging /Users/sw/.npm/gulp-if
+1424 silly gentlyRm purging /Users/sw/.npm/gulp-imagemin
+1425 silly gentlyRm purging /Users/sw/.npm/gulp-jade
+1426 silly gentlyRm purging /Users/sw/.npm/gulp-jshint
+1427 silly gentlyRm purging /Users/sw/.npm/gulp-livereload
+1428 silly gentlyRm purging /Users/sw/.npm/gulp-load-plugins
+1429 silly gentlyRm purging /Users/sw/.npm/gulp-match
+1430 silly gentlyRm purging /Users/sw/.npm/gulp-minify-css
+1431 silly gentlyRm purging /Users/sw/.npm/gulp-minify-html
+1432 silly gentlyRm purging /Users/sw/.npm/gulp-nodemon
+1433 silly gentlyRm purging /Users/sw/.npm/gulp-notify
+1434 silly gentlyRm purging /Users/sw/.npm/gulp-postcss
+1435 silly gentlyRm purging /Users/sw/.npm/gulp-rename
+1436 silly gentlyRm purging /Users/sw/.npm/gulp-rev-all
+1437 silly gentlyRm purging /Users/sw/.npm/gulp-rev-replace
+1438 silly gentlyRm purging /Users/sw/.npm/gulp-rsync
+1439 silly gentlyRm purging /Users/sw/.npm/gulp-sass
+1440 silly gentlyRm purging /Users/sw/.npm/gulp-scss-lint
+1441 silly gentlyRm purging /Users/sw/.npm/gulp-sftp
+1442 silly gentlyRm purging /Users/sw/.npm/gulp-shell
+1443 silly gentlyRm purging /Users/sw/.npm/gulp-size
+1444 silly gentlyRm purging /Users/sw/.npm/gulp-sizereport
+1445 silly gentlyRm purging /Users/sw/.npm/gulp-sourcemaps
+1446 silly gentlyRm purging /Users/sw/.npm/gulp-svgmin
+1447 silly gentlyRm purging /Users/sw/.npm/gulp-uglify
+1448 silly gentlyRm purging /Users/sw/.npm/gulp-uncss
+1449 silly gentlyRm purging /Users/sw/.npm/gulp-useref
+1450 silly gentlyRm purging /Users/sw/.npm/gulp-util
+1451 silly gentlyRm purging /Users/sw/.npm/gzip-size
+1452 silly gentlyRm purging /Users/sw/.npm/handlebars
+1453 silly gentlyRm purging /Users/sw/.npm/has
+1454 silly gentlyRm purging /Users/sw/.npm/has-ansi
+1455 silly gentlyRm purging /Users/sw/.npm/has-binary
+1456 silly gentlyRm purging /Users/sw/.npm/has-binary-data
+1457 silly gentlyRm purging /Users/sw/.npm/has-color
+1458 silly gentlyRm purging /Users/sw/.npm/has-cors
+1459 silly gentlyRm purging /Users/sw/.npm/hash.js
+1460 silly gentlyRm purging /Users/sw/.npm/hat
+1461 silly gentlyRm purging /Users/sw/.npm/hawk
+1462 silly gentlyRm purging /Users/sw/.npm/hoek
+1463 silly gentlyRm purging /Users/sw/.npm/hooker
+1464 silly gentlyRm purging /Users/sw/.npm/hooks
+1465 silly gentlyRm purging /Users/sw/.npm/html-minifier
+1466 silly gentlyRm purging /Users/sw/.npm/htmlparser2
+1467 silly gentlyRm purging /Users/sw/.npm/http-browserify
+1468 silly gentlyRm purging /Users/sw/.npm/http-errors
+1469 silly gentlyRm purging /Users/sw/.npm/http-https
+1470 silly gentlyRm purging /Users/sw/.npm/http-proxy
+1471 silly gentlyRm purging /Users/sw/.npm/http-signature
+1472 silly gentlyRm purging /Users/sw/.npm/https-browserify
+1473 silly gentlyRm purging /Users/sw/.npm/humanize-string
+1474 silly gentlyRm purging /Users/sw/.npm/humanize-url
+1475 silly gentlyRm purging /Users/sw/.npm/i
+1476 silly gentlyRm purging /Users/sw/.npm/iconv-lite
+1477 silly gentlyRm purging /Users/sw/.npm/ieee754
+1478 silly gentlyRm purging /Users/sw/.npm/imagemin
+1479 silly gentlyRm purging /Users/sw/.npm/imagemin-gifsicle
+1480 silly gentlyRm purging /Users/sw/.npm/imagemin-jpegoptim
+1481 silly gentlyRm purging /Users/sw/.npm/imagemin-jpegtran
+1482 silly gentlyRm purging /Users/sw/.npm/imagemin-log
+1483 silly gentlyRm purging /Users/sw/.npm/imagemin-optipng
+1484 silly gentlyRm purging /Users/sw/.npm/imagemin-pngquant
+1485 silly gentlyRm purging /Users/sw/.npm/imagemin-svgo
+1486 silly gentlyRm purging /Users/sw/.npm/immutable
+1487 silly gentlyRm purging /Users/sw/.npm/indent-string
+1488 silly gentlyRm purging /Users/sw/.npm/indexof
+1489 silly gentlyRm purging /Users/sw/.npm/infinity-agent
+1490 silly gentlyRm purging /Users/sw/.npm/inflight
+1491 silly gentlyRm purging /Users/sw/.npm/inherits
+1492 silly gentlyRm purging /Users/sw/.npm/ini
+1493 silly gentlyRm purging /Users/sw/.npm/inline-source-map
+1494 silly gentlyRm purging /Users/sw/.npm/inquirer
+1495 silly gentlyRm purging /Users/sw/.npm/insert-module-globals
+1496 silly gentlyRm purging /Users/sw/.npm/insight
+1497 silly gentlyRm purging /Users/sw/.npm/interpret
+1498 silly gentlyRm purging /Users/sw/.npm/intersect
+1499 silly gentlyRm purging /Users/sw/.npm/ip
+1500 silly gentlyRm purging /Users/sw/.npm/ip-regex
+1501 silly gentlyRm purging /Users/sw/.npm/ip-set
+1502 silly gentlyRm purging /Users/sw/.npm/ipaddr.js
+1503 silly gentlyRm purging /Users/sw/.npm/is
+1504 silly gentlyRm purging /Users/sw/.npm/is-7zip
+1505 silly gentlyRm purging /Users/sw/.npm/is-absolute
+1506 silly gentlyRm purging /Users/sw/.npm/is-absolute-url
+1507 silly gentlyRm purging /Users/sw/.npm/is-array
+1508 silly gentlyRm purging /Users/sw/.npm/is-bzip2
+1509 silly gentlyRm purging /Users/sw/.npm/is-finite
+1510 silly gentlyRm purging /Users/sw/.npm/is-gif
+1511 silly gentlyRm purging /Users/sw/.npm/is-gzip
+1512 silly gentlyRm purging /Users/sw/.npm/is-integer
+1513 silly gentlyRm purging /Users/sw/.npm/is-ip
+1514 silly gentlyRm purging /Users/sw/.npm/is-jpg
+1515 silly gentlyRm purging /Users/sw/.npm/is-lower-case
+1516 silly gentlyRm purging /Users/sw/.npm/is-nan
+1517 silly gentlyRm purging /Users/sw/.npm/is-natural-number
+1518 silly gentlyRm purging /Users/sw/.npm/is-npm
+1519 silly gentlyRm purging /Users/sw/.npm/is-path-cwd
+1520 silly gentlyRm purging /Users/sw/.npm/is-path-global
+1521 silly gentlyRm purging /Users/sw/.npm/is-path-in-cwd
+1522 silly gentlyRm purging /Users/sw/.npm/is-path-inside
+1523 silly gentlyRm purging /Users/sw/.npm/is-png
+1524 silly gentlyRm purging /Users/sw/.npm/is-promise
+1525 silly gentlyRm purging /Users/sw/.npm/is-rar
+1526 silly gentlyRm purging /Users/sw/.npm/is-relative
+1527 silly gentlyRm purging /Users/sw/.npm/is-relative-url
+1528 silly gentlyRm purging /Users/sw/.npm/is-root
+1529 silly gentlyRm purging /Users/sw/.npm/is-stream
+1530 silly gentlyRm purging /Users/sw/.npm/is-svg
+1531 silly gentlyRm purging /Users/sw/.npm/is-tar
+1532 silly gentlyRm purging /Users/sw/.npm/is-typedarray
+1533 silly gentlyRm purging /Users/sw/.npm/is-upper-case
+1534 silly gentlyRm purging /Users/sw/.npm/is-utf8
+1535 silly gentlyRm purging /Users/sw/.npm/is-zip
+1536 silly gentlyRm purging /Users/sw/.npm/isarray
+1537 silly gentlyRm purging /Users/sw/.npm/isbinaryfile
+1538 silly gentlyRm purging /Users/sw/.npm/isobject
+1539 silly gentlyRm purging /Users/sw/.npm/isstream
+1540 silly gentlyRm purging /Users/sw/.npm/istextorbinary
+1541 silly gentlyRm purging /Users/sw/.npm/jade
+1542 silly gentlyRm purging /Users/sw/.npm/jpegoptim-bin
+1543 silly gentlyRm purging /Users/sw/.npm/jpegtran-bin
+1544 silly gentlyRm purging /Users/sw/.npm/jquery
+1545 silly gentlyRm purging /Users/sw/.npm/js-base64
+1546 silly gentlyRm purging /Users/sw/.npm/js-string-escape
+1547 silly gentlyRm purging /Users/sw/.npm/js-yaml
+1548 silly gentlyRm purging /Users/sw/.npm/jsftp
+1549 silly gentlyRm purging /Users/sw/.npm/jsftp-mkdirp
+1550 silly gentlyRm purging /Users/sw/.npm/jshint
+1551 silly gentlyRm purging /Users/sw/.npm/jshint-stylish
+1552 silly gentlyRm purging /Users/sw/.npm/json-stable-stringify
+1553 silly gentlyRm purging /Users/sw/.npm/json-stringify-safe
+1554 silly gentlyRm purging /Users/sw/.npm/json3
+1555 silly gentlyRm purging /Users/sw/.npm/jsonfile
+1556 silly gentlyRm purging /Users/sw/.npm/jsonify
+1557 silly gentlyRm purging /Users/sw/.npm/jsonparse
+1558 silly gentlyRm purging /Users/sw/.npm/junk
+1559 silly gentlyRm purging /Users/sw/.npm/jws
+1560 silly gentlyRm purging /Users/sw/.npm/k-bucket
+1561 silly gentlyRm purging /Users/sw/.npm/kerberos
+1562 silly gentlyRm purging /Users/sw/.npm/kew
+1563 silly gentlyRm purging /Users/sw/.npm/keypress
+1564 silly gentlyRm purging /Users/sw/.npm/labeled-stream-splicer
+1565 silly gentlyRm purging /Users/sw/.npm/latest-version
+1566 silly gentlyRm purging /Users/sw/.npm/levn
+1567 silly gentlyRm purging /Users/sw/.npm/lexical-scope
+1568 silly gentlyRm purging /Users/sw/.npm/liftoff
+1569 silly gentlyRm purging /Users/sw/.npm/livereload-js
+1570 silly gentlyRm purging /Users/sw/.npm/lnfs
+1571 silly gentlyRm purging /Users/sw/.npm/load-grunt-tasks
+1572 silly gentlyRm purging /Users/sw/.npm/load-ip-set
+1573 silly gentlyRm purging /Users/sw/.npm/localtunnel
+1574 silly gentlyRm purging /Users/sw/.npm/lockfile
+1575 silly gentlyRm purging /Users/sw/.npm/lodash
+1576 silly gentlyRm purging /Users/sw/.npm/lodash-node
+1577 silly gentlyRm purging /Users/sw/.npm/lodash._arraypool
+1578 silly gentlyRm purging /Users/sw/.npm/lodash._baseassign
+1579 silly gentlyRm purging /Users/sw/.npm/lodash._basebind
+1580 silly gentlyRm purging /Users/sw/.npm/lodash._basecopy
+1581 silly gentlyRm purging /Users/sw/.npm/lodash._basecreate
+1582 silly gentlyRm purging /Users/sw/.npm/lodash._basecreatecallback
+1583 silly gentlyRm purging /Users/sw/.npm/lodash._basecreatewrapper
+1584 silly gentlyRm purging /Users/sw/.npm/lodash._baseisequal
+1585 silly gentlyRm purging /Users/sw/.npm/lodash._basetostring
+1586 silly gentlyRm purging /Users/sw/.npm/lodash._basevalues
+1587 silly gentlyRm purging /Users/sw/.npm/lodash._bindcallback
+1588 silly gentlyRm purging /Users/sw/.npm/lodash._createassigner
+1589 silly gentlyRm purging /Users/sw/.npm/lodash._createwrapper
+1590 silly gentlyRm purging /Users/sw/.npm/lodash._escapehtmlchar
+1591 silly gentlyRm purging /Users/sw/.npm/lodash._escapestringchar
+1592 silly gentlyRm purging /Users/sw/.npm/lodash._getarray
+1593 silly gentlyRm purging /Users/sw/.npm/lodash._htmlescapes
+1594 silly gentlyRm purging /Users/sw/.npm/lodash._isiterateecall
+1595 silly gentlyRm purging /Users/sw/.npm/lodash._isnative
+1596 silly gentlyRm purging /Users/sw/.npm/lodash._maxpoolsize
+1597 silly gentlyRm purging /Users/sw/.npm/lodash._objecttypes
+1598 silly gentlyRm purging /Users/sw/.npm/lodash._reescape
+1599 silly gentlyRm purging /Users/sw/.npm/lodash._reevaluate
+1600 silly gentlyRm purging /Users/sw/.npm/lodash._reinterpolate
+1601 silly gentlyRm purging /Users/sw/.npm/lodash._releasearray
+1602 silly gentlyRm purging /Users/sw/.npm/lodash._reunescapedhtml
+1603 silly gentlyRm purging /Users/sw/.npm/lodash._setbinddata
+1604 silly gentlyRm purging /Users/sw/.npm/lodash._shimkeys
+1605 silly gentlyRm purging /Users/sw/.npm/lodash._slice
+1606 silly gentlyRm purging /Users/sw/.npm/lodash.assign
+1607 silly gentlyRm purging /Users/sw/.npm/lodash.bind
+1608 silly gentlyRm purging /Users/sw/.npm/lodash.createcallback
+1609 silly gentlyRm purging /Users/sw/.npm/lodash.debounce
+1610 silly gentlyRm purging /Users/sw/.npm/lodash.defaults
+1611 silly gentlyRm purging /Users/sw/.npm/lodash.escape
+1612 silly gentlyRm purging /Users/sw/.npm/lodash.every
+1613 silly gentlyRm purging /Users/sw/.npm/lodash.findindex
+1614 silly gentlyRm purging /Users/sw/.npm/lodash.forin
+1615 silly gentlyRm purging /Users/sw/.npm/lodash.forown
+1616 silly gentlyRm purging /Users/sw/.npm/lodash.identity
+1617 silly gentlyRm purging /Users/sw/.npm/lodash.isarguments
+1618 silly gentlyRm purging /Users/sw/.npm/lodash.isarray
+1619 silly gentlyRm purging /Users/sw/.npm/lodash.iserror
+1620 silly gentlyRm purging /Users/sw/.npm/lodash.isfunction
+1621 silly gentlyRm purging /Users/sw/.npm/lodash.isnative
+1622 silly gentlyRm purging /Users/sw/.npm/lodash.isobject
+1623 silly gentlyRm purging /Users/sw/.npm/lodash.isstring
+1624 silly gentlyRm purging /Users/sw/.npm/lodash.keys
+1625 silly gentlyRm purging /Users/sw/.npm/lodash.noop
+1626 silly gentlyRm purging /Users/sw/.npm/lodash.now
+1627 silly gentlyRm purging /Users/sw/.npm/lodash.property
+1628 silly gentlyRm purging /Users/sw/.npm/lodash.reescape
+1629 silly gentlyRm purging /Users/sw/.npm/lodash.reevaluate
+1630 silly gentlyRm purging /Users/sw/.npm/lodash.reinterpolate
+1631 silly gentlyRm purging /Users/sw/.npm/lodash.support
+1632 silly gentlyRm purging /Users/sw/.npm/lodash.template
+1633 silly gentlyRm purging /Users/sw/.npm/lodash.templatesettings
+1634 silly gentlyRm purging /Users/sw/.npm/lodash.values
+1635 silly gentlyRm purging /Users/sw/.npm/log-symbols
+1636 silly gentlyRm purging /Users/sw/.npm/logalot
+1637 silly gentlyRm purging /Users/sw/.npm/lolex
+1638 silly gentlyRm purging /Users/sw/.npm/long
+1639 silly gentlyRm purging /Users/sw/.npm/longest
+1640 silly gentlyRm purging /Users/sw/.npm/lower-case
+1641 silly gentlyRm purging /Users/sw/.npm/lowercase-keys
+1642 silly gentlyRm purging /Users/sw/.npm/lpad
+1643 silly gentlyRm purging /Users/sw/.npm/lpad-align
+1644 silly gentlyRm purging /Users/sw/.npm/lru-cache
+1645 silly gentlyRm purging /Users/sw/.npm/lru-queue
+1646 silly gentlyRm purging /Users/sw/.npm/magnet-uri
+1647 silly gentlyRm purging /Users/sw/.npm/main-bower-files
+1648 silly gentlyRm purging /Users/sw/.npm/map-obj
+1649 silly gentlyRm purging /Users/sw/.npm/map-stream
+1650 silly gentlyRm purging /Users/sw/.npm/markdown
+1651 silly gentlyRm purging /Users/sw/.npm/marked
+1652 silly gentlyRm purging /Users/sw/.npm/maxmin
+1653 silly gentlyRm purging /Users/sw/.npm/mdns-js
+1654 silly gentlyRm purging /Users/sw/.npm/mdns-js2
+1655 silly gentlyRm purging /Users/sw/.npm/media-typer
+1656 silly gentlyRm purging /Users/sw/.npm/mem-fs
+1657 silly gentlyRm purging /Users/sw/.npm/mem-fs-editor
+1658 silly gentlyRm purging /Users/sw/.npm/memoizee
+1659 silly gentlyRm purging /Users/sw/.npm/memory-cache
+1660 silly gentlyRm purging /Users/sw/.npm/meow
+1661 silly gentlyRm purging /Users/sw/.npm/merge-descriptors
+1662 silly gentlyRm purging /Users/sw/.npm/merge-stream
+1663 silly gentlyRm purging /Users/sw/.npm/method-override
+1664 silly gentlyRm purging /Users/sw/.npm/methods
+1665 silly gentlyRm purging /Users/sw/.npm/miller-rabin
+1666 silly gentlyRm purging /Users/sw/.npm/mime
+1667 silly gentlyRm purging /Users/sw/.npm/mime-db
+1668 silly gentlyRm purging /Users/sw/.npm/mime-types
+1669 silly gentlyRm purging /Users/sw/.npm/minimalistic-assert
+1670 silly gentlyRm purging /Users/sw/.npm/minimatch
+1671 silly gentlyRm purging /Users/sw/.npm/minimist
+1672 silly gentlyRm purging /Users/sw/.npm/minimize
+1673 silly gentlyRm purging /Users/sw/.npm/mkdirp
+1674 silly gentlyRm purging /Users/sw/.npm/mkpath
+1675 silly gentlyRm purging /Users/sw/.npm/mocha
+1676 silly gentlyRm purging /Users/sw/.npm/module-deps
+1677 silly gentlyRm purging /Users/sw/.npm/moment
+1678 silly gentlyRm purging /Users/sw/.npm/mongodb
+1679 silly gentlyRm purging /Users/sw/.npm/mongoose
+1680 silly gentlyRm purging /Users/sw/.npm/monocle
+1681 silly gentlyRm purging /Users/sw/.npm/morgan
+1682 silly gentlyRm purging /Users/sw/.npm/mout
+1683 silly gentlyRm purging /Users/sw/.npm/mpath
+1684 silly gentlyRm purging /Users/sw/.npm/mpromise
+1685 silly gentlyRm purging /Users/sw/.npm/mquery
+1686 silly gentlyRm purging /Users/sw/.npm/ms
+1687 silly gentlyRm purging /Users/sw/.npm/multimatch
+1688 silly gentlyRm purging /Users/sw/.npm/multiparty
+1689 silly gentlyRm purging /Users/sw/.npm/multipipe
+1690 silly gentlyRm purging /Users/sw/.npm/multistream
+1691 silly gentlyRm purging /Users/sw/.npm/muri
+1692 silly gentlyRm purging /Users/sw/.npm/mute-stream
+1693 silly gentlyRm purging /Users/sw/.npm/mz
+1694 silly gentlyRm purging /Users/sw/.npm/nan
+1695 silly gentlyRm purging /Users/sw/.npm/native-or-bluebird
+1696 silly gentlyRm purging /Users/sw/.npm/ncp
+1697 silly gentlyRm purging /Users/sw/.npm/negotiator
+1698 silly gentlyRm purging /Users/sw/.npm/network-address
+1699 silly gentlyRm purging /Users/sw/.npm/next-tick
+1700 silly gentlyRm purging /Users/sw/.npm/ngrok
+1701 silly gentlyRm purging /Users/sw/.npm/node-notifier
+1702 silly gentlyRm purging /Users/sw/.npm/node-phantom-simple
+1703 silly gentlyRm purging /Users/sw/.npm/node-sass
+1704 silly gentlyRm purging /Users/sw/.npm/node-sass-middleware
+1705 silly gentlyRm purging /Users/sw/.npm/node-useref
+1706 silly gentlyRm purging /Users/sw/.npm/node-uuid
+1707 silly gentlyRm purging /Users/sw/.npm/node-watch
+1708 silly gentlyRm purging /Users/sw/.npm/node.extend
+1709 silly gentlyRm purging /Users/sw/.npm/nodebmc
+1710 silly gentlyRm purging /Users/sw/.npm/nodemon
+1711 silly gentlyRm purging /Users/sw/.npm/nopt
+1712 silly gentlyRm purging /Users/sw/.npm/noptify
+1713 silly gentlyRm purging /Users/sw/.npm/normalize-package-data
+1714 silly gentlyRm purging /Users/sw/.npm/normalize-url
+1715 silly gentlyRm purging /Users/sw/.npm/npm
+1716 silly gentlyRm purging /Users/sw/.npm/npm-check-updates
+1717 silly gentlyRm purging /Users/sw/.npm/npm-installed
+1718 silly gentlyRm purging /Users/sw/.npm/npm-keyword
+1719 silly gentlyRm purging /Users/sw/.npm/npm-path
+1720 silly gentlyRm purging /Users/sw/.npm/npm-which
+1721 silly gentlyRm purging /Users/sw/.npm/npmconf
+1722 silly gentlyRm purging /Users/sw/.npm/num2fraction
+1723 silly gentlyRm purging /Users/sw/.npm/oauth-sign
+1724 silly gentlyRm purging /Users/sw/.npm/object-assign
+1725 silly gentlyRm purging /Users/sw/.npm/object-component
+1726 silly gentlyRm purging /Users/sw/.npm/object-keys
+1727 silly gentlyRm purging /Users/sw/.npm/object-path
+1728 silly gentlyRm purging /Users/sw/.npm/object-values
+1729 silly gentlyRm purging /Users/sw/.npm/object.omit
+1730 silly gentlyRm purging /Users/sw/.npm/on-finished
+1731 silly gentlyRm purging /Users/sw/.npm/on-headers
+1732 silly gentlyRm purging /Users/sw/.npm/once
+1733 silly gentlyRm purging /Users/sw/.npm/onetime
+1734 silly gentlyRm purging /Users/sw/.npm/open
+1735 silly gentlyRm purging /Users/sw/.npm/opn
+1736 silly gentlyRm purging /Users/sw/.npm/opt-merger
+1737 silly gentlyRm purging /Users/sw/.npm/optimist
+1738 silly gentlyRm purging /Users/sw/.npm/optional
+1739 silly gentlyRm purging /Users/sw/.npm/optionator
+1740 silly gentlyRm purging /Users/sw/.npm/options
+1741 silly gentlyRm purging /Users/sw/.npm/optipng-bin
+1742 silly gentlyRm purging /Users/sw/.npm/optjs
+1743 silly gentlyRm purging /Users/sw/.npm/opts
+1744 silly gentlyRm purging /Users/sw/.npm/orchestrator
+1745 silly gentlyRm purging /Users/sw/.npm/ordered-read-streams
+1746 silly gentlyRm purging /Users/sw/.npm/os-browserify
+1747 silly gentlyRm purging /Users/sw/.npm/os-filter-obj
+1748 silly gentlyRm purging /Users/sw/.npm/os-name
+1749 silly gentlyRm purging /Users/sw/.npm/osenv
+1750 silly gentlyRm purging /Users/sw/.npm/osx-release
+1751 silly gentlyRm purging /Users/sw/.npm/p-throttler
+1752 silly gentlyRm purging /Users/sw/.npm/package-json
+1753 silly gentlyRm purging /Users/sw/.npm/pad-component
+1754 silly gentlyRm purging /Users/sw/.npm/pad-stdio
+1755 silly gentlyRm purging /Users/sw/.npm/pako
+1756 silly gentlyRm purging /Users/sw/.npm/param-case
+1757 silly gentlyRm purging /Users/sw/.npm/parents
+1758 silly gentlyRm purging /Users/sw/.npm/parse-asn1
+1759 silly gentlyRm purging /Users/sw/.npm/parse-listing
+1760 silly gentlyRm purging /Users/sw/.npm/parse-ms
+1761 silly gentlyRm purging /Users/sw/.npm/parse-torrent
+1762 silly gentlyRm purging /Users/sw/.npm/parse-torrent-file
+1763 silly gentlyRm purging /Users/sw/.npm/parsejson
+1764 silly gentlyRm purging /Users/sw/.npm/parseqs
+1765 silly gentlyRm purging /Users/sw/.npm/parserlib
+1766 silly gentlyRm purging /Users/sw/.npm/parseuri
+1767 silly gentlyRm purging /Users/sw/.npm/parseurl
+1768 silly gentlyRm purging /Users/sw/.npm/pascal-case
+1769 silly gentlyRm purging /Users/sw/.npm/path-browserify
+1770 silly gentlyRm purging /Users/sw/.npm/path-case
+1771 silly gentlyRm purging /Users/sw/.npm/path-is-inside
+1772 silly gentlyRm purging /Users/sw/.npm/path-platform
+1773 silly gentlyRm purging /Users/sw/.npm/path-to-regexp
+1774 silly gentlyRm purging /Users/sw/.npm/pause
+1775 silly gentlyRm purging /Users/sw/.npm/pause-stream
+1776 silly gentlyRm purging /Users/sw/.npm/pbkdf2-compat
+1777 silly gentlyRm purging /Users/sw/.npm/pemstrip
+1778 silly gentlyRm purging /Users/sw/.npm/pend
+1779 silly gentlyRm purging /Users/sw/.npm/phantomjs
+1780 silly gentlyRm purging /Users/sw/.npm/piece-length
+1781 silly gentlyRm purging /Users/sw/.npm/plist-with-patches
+1782 silly gentlyRm purging /Users/sw/.npm/pngquant-bin
+1783 silly gentlyRm purging /Users/sw/.npm/portfinder
+1784 silly gentlyRm purging /Users/sw/.npm/portscanner
+1785 silly gentlyRm purging /Users/sw/.npm/portscanner-plus
+1786 silly gentlyRm purging /Users/sw/.npm/postcss
+1787 silly gentlyRm purging /Users/sw/.npm/prelude-ls
+1788 silly gentlyRm purging /Users/sw/.npm/prepend-http
+1789 silly gentlyRm purging /Users/sw/.npm/pretty-bytes
+1790 silly gentlyRm purging /Users/sw/.npm/pretty-hrtime
+1791 silly gentlyRm purging /Users/sw/.npm/pretty-ms
+1792 silly gentlyRm purging /Users/sw/.npm/prettysize
+1793 silly gentlyRm purging /Users/sw/.npm/process
+1794 silly gentlyRm purging /Users/sw/.npm/progress
+1795 silly gentlyRm purging /Users/sw/.npm/promise
+1796 silly gentlyRm purging /Users/sw/.npm/promptly
+1797 silly gentlyRm purging /Users/sw/.npm/propprop
+1798 silly gentlyRm purging /Users/sw/.npm/proto-list
+1799 silly gentlyRm purging /Users/sw/.npm/protobufjs
+1800 silly gentlyRm purging /Users/sw/.npm/proxy-addr
+1801 silly gentlyRm purging /Users/sw/.npm/ps-tree
+1802 silly gentlyRm purging /Users/sw/.npm/psi
+1803 silly gentlyRm purging /Users/sw/.npm/public-encrypt
+1804 silly gentlyRm purging /Users/sw/.npm/pump
+1805 silly gentlyRm purging /Users/sw/.npm/punycode
+1806 silly gentlyRm purging /Users/sw/.npm/q
+1807 silly gentlyRm purging /Users/sw/.npm/qs
+1808 silly gentlyRm purging /Users/sw/.npm/query-string
+1809 silly gentlyRm purging /Users/sw/.npm/querystring
+1810 silly gentlyRm purging /Users/sw/.npm/querystring-es3
+1811 silly gentlyRm purging /Users/sw/.npm/random-access-file
+1812 silly gentlyRm purging /Users/sw/.npm/randombytes
+1813 silly gentlyRm purging /Users/sw/.npm/range-parser
+1814 silly gentlyRm purging /Users/sw/.npm/raw-body
+1815 silly gentlyRm purging /Users/sw/.npm/rc
+1816 silly gentlyRm purging /Users/sw/.npm/rcfinder
+1817 silly gentlyRm purging /Users/sw/.npm/rcloader
+1818 silly gentlyRm purging /Users/sw/.npm/re-emitter
+1819 silly gentlyRm purging /Users/sw/.npm/read
+1820 silly gentlyRm purging /Users/sw/.npm/read-all-stream
+1821 silly gentlyRm purging /Users/sw/.npm/read-chunk
+1822 silly gentlyRm purging /Users/sw/.npm/read-package-json
+1823 silly gentlyRm purging /Users/sw/.npm/readable-stream
+1824 silly gentlyRm purging /Users/sw/.npm/readable-wrap
+1825 silly gentlyRm purging /Users/sw/.npm/readdirp
+1826 silly gentlyRm purging /Users/sw/.npm/readline2
+1827 silly gentlyRm purging /Users/sw/.npm/redeyed
+1828 silly gentlyRm purging /Users/sw/.npm/regexp-clone
+1829 silly gentlyRm purging /Users/sw/.npm/registry-url
+1830 silly gentlyRm purging /Users/sw/.npm/registry.npmjs.org
+1831 silly gentlyRm purging /Users/sw/.npm/relateurl
+1832 silly gentlyRm purging /Users/sw/.npm/repeating
+1833 silly gentlyRm purging /Users/sw/.npm/replace-ext
+1834 silly gentlyRm purging /Users/sw/.npm/request
+1835 silly gentlyRm purging /Users/sw/.npm/request-progress
+1836 silly gentlyRm purging /Users/sw/.npm/request-replay
+1837 silly gentlyRm purging /Users/sw/.npm/requires-port
+1838 silly gentlyRm purging /Users/sw/.npm/resolve
+1839 silly gentlyRm purging /Users/sw/.npm/resp-modifier
+1840 silly gentlyRm purging /Users/sw/.npm/response-time
+1841 silly gentlyRm purging /Users/sw/.npm/retry
+1842 silly gentlyRm purging /Users/sw/.npm/rfile
+1843 silly gentlyRm purging /Users/sw/.npm/rimraf
+1844 silly gentlyRm purging /Users/sw/.npm/ripemd160
+1845 silly gentlyRm purging /Users/sw/.npm/rndm
+1846 silly gentlyRm purging /Users/sw/.npm/ronn
+1847 silly gentlyRm purging /Users/sw/.npm/root-check
+1848 silly gentlyRm purging /Users/sw/.npm/rsyncwrapper
+1849 silly gentlyRm purging /Users/sw/.npm/ruglify
+1850 silly gentlyRm purging /Users/sw/.npm/run-async
+1851 silly gentlyRm purging /Users/sw/.npm/run-parallel
+1852 silly gentlyRm purging /Users/sw/.npm/run-sequence
+1853 silly gentlyRm purging /Users/sw/.npm/runforcover
+1854 silly gentlyRm purging /Users/sw/.npm/rx
+1855 silly gentlyRm purging /Users/sw/.npm/samsam
+1856 silly gentlyRm purging /Users/sw/.npm/sass-graph
+1857 silly gentlyRm purging /Users/sw/.npm/sax
+1858 silly gentlyRm purging /Users/sw/.npm/scmp
+1859 silly gentlyRm purging /Users/sw/.npm/seek-bzip
+1860 silly gentlyRm purging /Users/sw/.npm/semver
+1861 silly gentlyRm purging /Users/sw/.npm/semver-diff
+1862 silly gentlyRm purging /Users/sw/.npm/semver-regex
+1863 silly gentlyRm purging /Users/sw/.npm/semver-truncate
+1864 silly gentlyRm purging /Users/sw/.npm/send
+1865 silly gentlyRm purging /Users/sw/.npm/sentence-case
+1866 silly gentlyRm purging /Users/sw/.npm/sequencify
+1867 silly gentlyRm purging /Users/sw/.npm/serve-favicon
+1868 silly gentlyRm purging /Users/sw/.npm/serve-index
+1869 silly gentlyRm purging /Users/sw/.npm/serve-static
+1870 silly gentlyRm purging /Users/sw/.npm/set-immediate-shim
+1871 silly gentlyRm purging /Users/sw/.npm/setimmediate
+1872 silly gentlyRm purging /Users/sw/.npm/sha.js
+1873 silly gentlyRm purging /Users/sw/.npm/shallow-copy
+1874 silly gentlyRm purging /Users/sw/.npm/shasum
+1875 silly gentlyRm purging /Users/sw/.npm/shell-quote
+1876 silly gentlyRm purging /Users/sw/.npm/shelljs
+1877 silly gentlyRm purging /Users/sw/.npm/shellwords
+1878 silly gentlyRm purging /Users/sw/.npm/sigmund
+1879 silly gentlyRm purging /Users/sw/.npm/simple-bufferstream
+1880 silly gentlyRm purging /Users/sw/.npm/simple-peer
+1881 silly gentlyRm purging /Users/sw/.npm/simple-websocket
+1882 silly gentlyRm purging /Users/sw/.npm/sinon
+1883 silly gentlyRm purging /Users/sw/.npm/sliced
+1884 silly gentlyRm purging /Users/sw/.npm/slide
+1885 silly gentlyRm purging /Users/sw/.npm/snake-case
+1886 silly gentlyRm purging /Users/sw/.npm/sntp
+1887 silly gentlyRm purging /Users/sw/.npm/socket.io
+1888 silly gentlyRm purging /Users/sw/.npm/socket.io-adapter
+1889 silly gentlyRm purging /Users/sw/.npm/socket.io-client
+1890 silly gentlyRm purging /Users/sw/.npm/socket.io-parser
+1891 silly gentlyRm purging /Users/sw/.npm/sort-keys
+1892 silly gentlyRm purging /Users/sw/.npm/sort-on
+1893 silly gentlyRm purging /Users/sw/.npm/source-map
+1894 silly gentlyRm purging /Users/sw/.npm/speedometer
+1895 silly gentlyRm purging /Users/sw/.npm/split
+1896 silly gentlyRm purging /Users/sw/.npm/sprintf-js
+1897 silly gentlyRm purging /Users/sw/.npm/squeak
+1898 silly gentlyRm purging /Users/sw/.npm/ssh2
+1899 silly gentlyRm purging /Users/sw/.npm/stat-mode
+1900 silly gentlyRm purging /Users/sw/.npm/statuses
+1901 silly gentlyRm purging /Users/sw/.npm/stream-browserify
+1902 silly gentlyRm purging /Users/sw/.npm/stream-combiner
+1903 silly gentlyRm purging /Users/sw/.npm/stream-combiner2
+1904 silly gentlyRm purging /Users/sw/.npm/stream-consume
+1905 silly gentlyRm purging /Users/sw/.npm/stream-counter
+1906 silly gentlyRm purging /Users/sw/.npm/stream-log
+1907 silly gentlyRm purging /Users/sw/.npm/stream-splicer
+1908 silly gentlyRm purging /Users/sw/.npm/stream-to-array
+1909 silly gentlyRm purging /Users/sw/.npm/streamsearch
+1910 silly gentlyRm purging /Users/sw/.npm/string
+1911 silly gentlyRm purging /Users/sw/.npm/string-length
+1912 silly gentlyRm purging /Users/sw/.npm/string-template
+1913 silly gentlyRm purging /Users/sw/.npm/string2compact
+1914 silly gentlyRm purging /Users/sw/.npm/string_decoder
+1915 silly gentlyRm purging /Users/sw/.npm/stringify-object
+1916 silly gentlyRm purging /Users/sw/.npm/stringstream
+1917 silly gentlyRm purging /Users/sw/.npm/strip-ansi
+1918 silly gentlyRm purging /Users/sw/.npm/strip-bom
+1919 silly gentlyRm purging /Users/sw/.npm/strip-dirs
+1920 silly gentlyRm purging /Users/sw/.npm/strip-json-comments
+1921 silly gentlyRm purging /Users/sw/.npm/strip-url-auth
+1922 silly gentlyRm purging /Users/sw/.npm/subarg
+1923 silly gentlyRm purging /Users/sw/.npm/sudo-block
+1924 silly gentlyRm purging /Users/sw/.npm/sum-up
+1925 silly gentlyRm purging /Users/sw/.npm/supports-color
+1926 silly gentlyRm purging /Users/sw/.npm/svgo
+1927 silly gentlyRm purging /Users/sw/.npm/swap-case
+1928 silly gentlyRm purging /Users/sw/.npm/syntax-error
+1929 silly gentlyRm purging /Users/sw/.npm/taketalk
+1930 silly gentlyRm purging /Users/sw/.npm/tap
+1931 silly gentlyRm purging /Users/sw/.npm/tap-consumer
+1932 silly gentlyRm purging /Users/sw/.npm/tap-results
+1933 silly gentlyRm purging /Users/sw/.npm/tar
+1934 silly gentlyRm purging /Users/sw/.npm/tar-fs
+1935 silly gentlyRm purging /Users/sw/.npm/tar-stream
+1936 silly gentlyRm purging /Users/sw/.npm/temp
+1937 silly gentlyRm purging /Users/sw/.npm/temp-write
+1938 silly gentlyRm purging /Users/sw/.npm/tempfile
+1939 silly gentlyRm purging /Users/sw/.npm/ternary-stream
+1940 silly gentlyRm purging /Users/sw/.npm/text-table
+1941 silly gentlyRm purging /Users/sw/.npm/textextensions
+1942 silly gentlyRm purging /Users/sw/.npm/tfunk
+1943 silly gentlyRm purging /Users/sw/.npm/thirty-two
+1944 silly gentlyRm purging /Users/sw/.npm/throttleit
+1945 silly gentlyRm purging /Users/sw/.npm/through
+1946 silly gentlyRm purging /Users/sw/.npm/through2
+1947 silly gentlyRm purging /Users/sw/.npm/through2-concurrent
+1948 silly gentlyRm purging /Users/sw/.npm/thunky
+1949 silly gentlyRm purging /Users/sw/.npm/tildify
+1950 silly gentlyRm purging /Users/sw/.npm/time-grunt
+1951 silly gentlyRm purging /Users/sw/.npm/timed-out
+1952 silly gentlyRm purging /Users/sw/.npm/timers-browserify
+1953 silly gentlyRm purging /Users/sw/.npm/timers-ext
+1954 silly gentlyRm purging /Users/sw/.npm/tiny-lr
+1955 silly gentlyRm purging /Users/sw/.npm/tiny-lr-fork
+1956 silly gentlyRm purging /Users/sw/.npm/tinycolor
+1957 silly gentlyRm purging /Users/sw/.npm/title-case
+1958 silly gentlyRm purging /Users/sw/.npm/titleize
+1959 silly gentlyRm purging /Users/sw/.npm/tmp
+1960 silly gentlyRm purging /Users/sw/.npm/to-array
+1961 silly gentlyRm purging /Users/sw/.npm/torrent-discovery
+1962 silly gentlyRm purging /Users/sw/.npm/touch
+1963 silly gentlyRm purging /Users/sw/.npm/tough-cookie
+1964 silly gentlyRm purging /Users/sw/.npm/transformers
+1965 silly gentlyRm purging /Users/sw/.npm/traverse
+1966 silly gentlyRm purging /Users/sw/.npm/tty-browserify
+1967 silly gentlyRm purging /Users/sw/.npm/tunnel-agent
+1968 silly gentlyRm purging /Users/sw/.npm/twig
+1969 silly gentlyRm purging /Users/sw/.npm/type-check
+1970 silly gentlyRm purging /Users/sw/.npm/type-is
+1971 silly gentlyRm purging /Users/sw/.npm/typed.js
+1972 silly gentlyRm purging /Users/sw/.npm/typedarray
+1973 silly gentlyRm purging /Users/sw/.npm/typedarray-to-buffer
+1974 silly gentlyRm purging /Users/sw/.npm/ua-parser-js
+1975 silly gentlyRm purging /Users/sw/.npm/uglify-js
+1976 silly gentlyRm purging /Users/sw/.npm/uglify-to-browserify
+1977 silly gentlyRm purging /Users/sw/.npm/uid-number
+1978 silly gentlyRm purging /Users/sw/.npm/uid-safe
+1979 silly gentlyRm purging /Users/sw/.npm/uid2
+1980 silly gentlyRm purging /Users/sw/.npm/ultron
+1981 silly gentlyRm purging /Users/sw/.npm/umd
+1982 silly gentlyRm purging /Users/sw/.npm/uncss
+1983 silly gentlyRm purging /Users/sw/.npm/underscore
+1984 silly gentlyRm purging /Users/sw/.npm/underscore.string
+1985 silly gentlyRm purging /Users/sw/.npm/unique-stream
+1986 silly gentlyRm purging /Users/sw/.npm/untildify
+1987 silly gentlyRm purging /Users/sw/.npm/update-notifier
+1988 silly gentlyRm purging /Users/sw/.npm/upper-case
+1989 silly gentlyRm purging /Users/sw/.npm/upper-case-first
+1990 silly gentlyRm purging /Users/sw/.npm/uri-path
+1991 silly gentlyRm purging /Users/sw/.npm/url
+1992 silly gentlyRm purging /Users/sw/.npm/url-regex
+1993 silly gentlyRm purging /Users/sw/.npm/user-home
+1994 silly gentlyRm purging /Users/sw/.npm/ut_metadata
+1995 silly gentlyRm purging /Users/sw/.npm/ut_pex
+1996 silly gentlyRm purging /Users/sw/.npm/utf8
+1997 silly gentlyRm purging /Users/sw/.npm/util
+1998 silly gentlyRm purging /Users/sw/.npm/utile
+1999 silly gentlyRm purging /Users/sw/.npm/utils-merge
+2000 silly gentlyRm purging /Users/sw/.npm/uuid
+2001 silly gentlyRm purging /Users/sw/.npm/v8flags
+2002 silly gentlyRm purging /Users/sw/.npm/vary
+2003 silly gentlyRm purging /Users/sw/.npm/vhost
+2004 silly gentlyRm purging /Users/sw/.npm/vinyl
+2005 silly gentlyRm purging /Users/sw/.npm/vinyl-assign
+2006 silly gentlyRm purging /Users/sw/.npm/vinyl-buffer
+2007 silly gentlyRm purging /Users/sw/.npm/vinyl-bufferstream
+2008 silly gentlyRm purging /Users/sw/.npm/vinyl-file
+2009 silly gentlyRm purging /Users/sw/.npm/vinyl-fs
+2010 silly gentlyRm purging /Users/sw/.npm/vinyl-source-stream
+2011 silly gentlyRm purging /Users/sw/.npm/vinyl-sourcemaps-apply
+2012 silly gentlyRm purging /Users/sw/.npm/vm-browserify
+2013 silly gentlyRm purging /Users/sw/.npm/void-elements
+2014 silly gentlyRm purging /Users/sw/.npm/walk
+2015 silly gentlyRm purging /Users/sw/.npm/ware
+2016 silly gentlyRm purging /Users/sw/.npm/watchify
+2017 silly gentlyRm purging /Users/sw/.npm/websocket-driver
+2018 silly gentlyRm purging /Users/sw/.npm/websocket-extensions
+2019 silly gentlyRm purging /Users/sw/.npm/webtorrent
+2020 silly gentlyRm purging /Users/sw/.npm/webtorrent-swarm
+2021 silly gentlyRm purging /Users/sw/.npm/webtorrent-tracker
+2022 silly gentlyRm purging /Users/sw/.npm/weinre
+2023 silly gentlyRm purging /Users/sw/.npm/when
+2024 silly gentlyRm purging /Users/sw/.npm/whet.extend
+2025 silly gentlyRm purging /Users/sw/.npm/which
+2026 silly gentlyRm purging /Users/sw/.npm/win-release
+2027 silly gentlyRm purging /Users/sw/.npm/win-spawn
+2028 silly gentlyRm purging /Users/sw/.npm/window-size
+2029 silly gentlyRm purging /Users/sw/.npm/windows-no-runnable
+2030 silly gentlyRm purging /Users/sw/.npm/wiredep
+2031 silly gentlyRm purging /Users/sw/.npm/with
+2032 silly gentlyRm purging /Users/sw/.npm/word-wrap
+2033 silly gentlyRm purging /Users/sw/.npm/wordwrap
+2034 silly gentlyRm purging /Users/sw/.npm/wrap-fn
+2035 silly gentlyRm purging /Users/sw/.npm/wrappy
+2036 silly gentlyRm purging /Users/sw/.npm/ws
+2037 silly gentlyRm purging /Users/sw/.npm/xdg-basedir
+2038 silly gentlyRm purging /Users/sw/.npm/xml2js
+2039 silly gentlyRm purging /Users/sw/.npm/xmlbuilder
+2040 silly gentlyRm purging /Users/sw/.npm/xmldom
+2041 silly gentlyRm purging /Users/sw/.npm/xmlhttprequest
+2042 silly gentlyRm purging /Users/sw/.npm/xtend
+2043 silly gentlyRm purging /Users/sw/.npm/yamlish
+2044 silly gentlyRm purging /Users/sw/.npm/yargs
+2045 silly gentlyRm purging /Users/sw/.npm/yauzl
+2046 silly gentlyRm purging /Users/sw/.npm/yeoman-assert
+2047 silly gentlyRm purging /Users/sw/.npm/yeoman-character
+2048 silly gentlyRm purging /Users/sw/.npm/yeoman-doctor
+2049 silly gentlyRm purging /Users/sw/.npm/yeoman-environment
+2050 silly gentlyRm purging /Users/sw/.npm/yeoman-generator
+2051 silly gentlyRm purging /Users/sw/.npm/yeoman-welcome
+2052 silly gentlyRm purging /Users/sw/.npm/yo
+2053 silly gentlyRm purging /Users/sw/.npm/yosay
+2054 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2055 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2056 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2057 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2058 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2059 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2060 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2061 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2062 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2063 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2064 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2065 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2066 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2067 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2068 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2069 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2070 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2071 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2072 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2073 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2074 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2075 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2076 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2077 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2078 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2079 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2080 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2081 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2082 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2083 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2084 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2085 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2086 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2087 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2088 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2089 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2090 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2091 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2092 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2093 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2094 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2095 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2096 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2097 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2098 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2099 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2100 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2101 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2102 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2103 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2104 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2105 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2106 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2107 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2108 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2109 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2110 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2111 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2112 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2113 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2114 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2115 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2116 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2117 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2118 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2119 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2120 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2121 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2122 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2123 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2124 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2125 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2126 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2127 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2128 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2129 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2130 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2131 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2132 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2133 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2134 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2135 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2136 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2137 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2138 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2139 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2140 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2141 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2142 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2143 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2144 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2145 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2146 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2147 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2148 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2149 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2150 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2151 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2152 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2153 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2154 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2155 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2156 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2157 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2158 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2159 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2160 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2161 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2162 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2163 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2164 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2165 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2166 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2167 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2168 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2169 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2170 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2171 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2172 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2173 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2174 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2175 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2176 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2177 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2178 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2179 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2180 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2181 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2182 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2183 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2184 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2185 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2186 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2187 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2188 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2189 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2190 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2191 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2192 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2193 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2194 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2195 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2196 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2197 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2198 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2199 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2200 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2201 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2202 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2203 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2204 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2205 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2206 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2207 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2208 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2209 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2210 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2211 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2212 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2213 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2214 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2215 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2216 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2217 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2218 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2219 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2220 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2221 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2222 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2223 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2224 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2225 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2226 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2227 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2228 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2229 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2230 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2231 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2232 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2233 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2234 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2235 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2236 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2237 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2238 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2239 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2240 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2241 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2242 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2243 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2244 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2245 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2246 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2247 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2248 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2249 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2250 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2251 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2252 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2253 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2254 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2255 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2256 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2257 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2258 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2259 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2260 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2261 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2262 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2263 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2264 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2265 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2266 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2267 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2268 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2269 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2270 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2271 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2272 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2273 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2274 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2275 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2276 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2277 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2278 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2279 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2280 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2281 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2282 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2283 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2284 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2285 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2286 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2287 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2288 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2289 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2290 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2291 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2292 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2293 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2294 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2295 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2296 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2297 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2298 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2299 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2300 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2301 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2302 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2303 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2304 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2305 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2306 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2307 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2308 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2309 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2310 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2311 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2312 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2313 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2314 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2315 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2316 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2317 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2318 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2319 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2320 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2321 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2322 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2323 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2324 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2325 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2326 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2327 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2328 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2329 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2330 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2331 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2332 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2333 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2334 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2335 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2336 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2337 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2338 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2339 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2340 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2341 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2342 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2343 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2344 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2345 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2346 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2347 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2348 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2349 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2350 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2351 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2352 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2353 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2354 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2355 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2356 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2357 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2358 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2359 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2360 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2361 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2362 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2363 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2364 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2365 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2366 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2367 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2368 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2369 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2370 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2371 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2372 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2373 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2374 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2375 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2376 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2377 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2378 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2379 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2380 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2381 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2382 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2383 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2384 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2385 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2386 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2387 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2388 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2389 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2390 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2391 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2392 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2393 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2394 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2395 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2396 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2397 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2398 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2399 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2400 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2401 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2402 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2403 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2404 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2405 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2406 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2407 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2408 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2409 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2410 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2411 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2412 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2413 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2414 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2415 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2416 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2417 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2418 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2419 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2420 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2421 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2422 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2423 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2424 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2425 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2426 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2427 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2428 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2429 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2430 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2431 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2432 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2433 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2434 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2435 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2436 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2437 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2438 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2439 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2440 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2441 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2442 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2443 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2444 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2445 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2446 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2447 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2448 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2449 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2450 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2451 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2452 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2453 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2454 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2455 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2456 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2457 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2458 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2459 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2460 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2461 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2462 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2463 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2464 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2465 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2466 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2467 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2468 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2469 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2470 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2471 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2472 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2473 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2474 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2475 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2476 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2477 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2478 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2479 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2480 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2481 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2482 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2483 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2484 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2485 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2486 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2487 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2488 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2489 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2490 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2491 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2492 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2493 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2494 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2495 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2496 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2497 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2498 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2499 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2500 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2501 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2502 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2503 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2504 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2505 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2506 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2507 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2508 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2509 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2510 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2511 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2512 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2513 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2514 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2515 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2516 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2517 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2518 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2519 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2520 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2521 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2522 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2523 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2524 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2525 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2526 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2527 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2528 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2529 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2530 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2531 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2532 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2533 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2534 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2535 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2536 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2537 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2538 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2539 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2540 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2541 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2542 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2543 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2544 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2545 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2546 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2547 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2548 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2549 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2550 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2551 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2552 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2553 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2554 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2555 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2556 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2557 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2558 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2559 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2560 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2561 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2562 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2563 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2564 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2565 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2566 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2567 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2568 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2569 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2570 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2571 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2572 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2573 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2574 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2575 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2576 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2577 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2578 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2579 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2580 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2581 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2582 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2583 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2584 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2585 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2586 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2587 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2588 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2589 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2590 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2591 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2592 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2593 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2594 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2595 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2596 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2597 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2598 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2599 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2600 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2601 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2602 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2603 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2604 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2605 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2606 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2607 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2608 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2609 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2610 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2611 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2612 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2613 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2614 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2615 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2616 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2617 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2618 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2619 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2620 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2621 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2622 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2623 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2624 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2625 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2626 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2627 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2628 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2629 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2630 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2631 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2632 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2633 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2634 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2635 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2636 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2637 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2638 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2639 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2640 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2641 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2642 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2643 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2644 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2645 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2646 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2647 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2648 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2649 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2650 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2651 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2652 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2653 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2654 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2655 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2656 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2657 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2658 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2659 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2660 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2661 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2662 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2663 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2664 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2665 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2666 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2667 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2668 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2669 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2670 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2671 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2672 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2673 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2674 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2675 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2676 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2677 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2678 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2679 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2680 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2681 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2682 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2683 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2684 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2685 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2686 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2687 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2688 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2689 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2690 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2691 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2692 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2693 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2694 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2695 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2696 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2697 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2698 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2699 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2700 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2701 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2702 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2703 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2704 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2705 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2706 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2707 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2708 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2709 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2710 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2711 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2712 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2713 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2714 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2715 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2716 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2717 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2718 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2719 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2720 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2721 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2722 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2723 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2724 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2725 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2726 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2727 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2728 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2729 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2730 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2731 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2732 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2733 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2734 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2735 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2736 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2737 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2738 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2739 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2740 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2741 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2742 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2743 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2744 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2745 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2746 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2747 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2748 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2749 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2750 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2751 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2752 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2753 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2754 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2755 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2756 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2757 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2758 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2759 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2760 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2761 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2762 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2763 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2764 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2765 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2766 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2767 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2768 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2769 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2770 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2771 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2772 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2773 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2774 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2775 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2776 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2777 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2778 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2779 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2780 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2781 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2782 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2783 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2784 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2785 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2786 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2787 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2788 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2789 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2790 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2791 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2792 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2793 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2794 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2795 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2796 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2797 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2798 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2799 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2800 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2801 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2802 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2803 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2804 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2805 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2806 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2807 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2808 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2809 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2810 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2811 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2812 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2813 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2814 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2815 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2816 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2817 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2818 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2819 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2820 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2821 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2822 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2823 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2824 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2825 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2826 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2827 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2828 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2829 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2830 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2831 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2832 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2833 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2834 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2835 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2836 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2837 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2838 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2839 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2840 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2841 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2842 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2843 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2844 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2845 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2846 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2847 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2848 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2849 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2850 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2851 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2852 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2853 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2854 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2855 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2856 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2857 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2858 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2859 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2860 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2861 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2862 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2863 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2864 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2865 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2866 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2867 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2868 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2869 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2870 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2871 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2872 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2873 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2874 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2875 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2876 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2877 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2878 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2879 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2880 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2881 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2882 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2883 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2884 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2885 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2886 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2887 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2888 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2889 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2890 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2891 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2892 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2893 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2894 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2895 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2896 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2897 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2898 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2899 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2900 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2901 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2902 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2903 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2904 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2905 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2906 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2907 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2908 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2909 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2910 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2911 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2912 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2913 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2914 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2915 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2916 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2917 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2918 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2919 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2920 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2921 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2922 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2923 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2924 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2925 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2926 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2927 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2928 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2929 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2930 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2931 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2932 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2933 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2934 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2935 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2936 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2937 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2938 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2939 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2940 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2941 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2942 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2943 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2944 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2945 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2946 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2947 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2948 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2949 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2950 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2951 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2952 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2953 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2954 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2955 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2956 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2957 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2958 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2959 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2960 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2961 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2962 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2963 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2964 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2965 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2966 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2967 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2968 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2969 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2970 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2971 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2972 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2973 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2974 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2975 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2976 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2977 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2978 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2979 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2980 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2981 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2982 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2983 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2984 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2985 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2986 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2987 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2988 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2989 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2990 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2991 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2992 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2993 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2994 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2995 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2996 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2997 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2998 silly gentlyRm quitting because other entries in /Users/sw/.npm
+2999 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3000 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3001 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3002 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3003 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3004 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3005 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3006 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3007 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3008 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3009 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3010 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3011 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3012 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3013 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3014 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3015 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3016 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3017 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3018 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3019 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3020 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3021 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3022 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3023 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3024 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3025 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3026 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3027 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3028 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3029 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3030 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3031 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3032 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3033 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3034 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3035 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3036 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3037 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3038 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3039 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3040 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3041 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3042 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3043 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3044 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3045 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3046 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3047 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3048 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3049 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3050 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3051 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3052 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3053 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3054 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3055 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3056 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3057 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3058 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3059 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3060 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3061 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3062 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3063 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3064 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3065 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3066 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3067 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3068 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3069 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3070 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3071 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3072 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3073 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3074 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3075 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3076 silly gentlyRm quitting because other entries in /Users/sw/.npm
+3077 verbose stack Error: EACCES, unlink '/Users/sw/.npm/grunt-cli/0.1.13'
+3078 verbose cwd /Users/sw/Sites/stockholmsbasta
+3079 error Darwin 14.1.0
+3080 error argv "node" "/usr/local/bin/npm" "cache" "clean"
+3081 error node v0.10.35
+3082 error npm  v2.3.0
+3083 error path /Users/sw/.npm/grunt-cli/0.1.13
+3084 error code EACCES
+3085 error errno 3
+3086 error Error: EACCES, unlink '/Users/sw/.npm/grunt-cli/0.1.13'
+3086 error  { [Error: EACCES, unlink '/Users/sw/.npm/grunt-cli/0.1.13']
+3086 error   errno: 3,
+3086 error   code: 'EACCES',
+3086 error   path: '/Users/sw/.npm/grunt-cli/0.1.13' }
+3087 error Please try running this command again as root/Administrator.
+3088 verbose exit [ 3, true ]

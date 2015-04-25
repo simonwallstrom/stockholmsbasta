@@ -8,7 +8,7 @@
 // -------------------------------------------------------------
 
 a.about-site-link {
-    // display: none;
+    display: none;
 
     @include bp(medium) {
         display: block;

@@ -2,9 +2,11 @@ doctype html
 html
     head
         meta(charset="utf-8")
-        title Gulp boileerplate
+        title Stockholms bästa
         meta(name="description", content="")
         meta(name="viewport", content="width=device-width, initial-scale=1")
+
+        link(rel="shortcut icon", href="img/favicon.ico")
 
         script(src="//use.typekit.net/qmb2dby.js")
         script.
@@ -19,18 +21,21 @@ html
 
         header.site-header
 
-            img.logo(src="images/logo.svg")
+            img.logo(src="img/logo.svg")
             a.about-site-link(href="#") Om sidan
 
             .about-site-content
                 p.no-margin.text-right
                     a(href="#")
                         span.ion-close.about-site-link-close
-                h2.serif En okomplicerad guide för specifika tillfällen.
-                p Sidan är skapad av två webbdesigners som också råkar ha ett brinnande matintresse. Åsikterna är högst personliga men vi hoppas ändå att några av er kommer hitta en ny favoritrestaurang i vår ödmjuka lista.
-                //- p.small Dessa åsikter är helt våra egna och det kommer definitivt finnas de som hävdar att sitt lokala kebabhak är betydligt vassare. Det är helt ok. Vi hoppas dock att de flesta uppskattar våra tips.
+                h2 En okomplicerad guide för specifika tillfällen.
+                p
+                    | Sidan är skapad av två webbdesigners som också råkar ha ett brinnande matintresse.
+                    | Nya kategorier och vinnare läggs löpande till i listan.
                 hr
-                p.small Tycker du att vi har helt fel får du gärna höra av dig och förklara varför. Du kan nå oss på hej@stockholmsbasta.se
+                p.small
+                    | Tycker du att vi har helt fel får du gärna höra av dig och förklara varför.
+                    | Du når oss bäst på hej@stockholmsbasta.se
 
             .hero-content
                 h1.hero-title.text-center
@@ -43,17 +48,34 @@ html
                     a.btn.btn--primary(href="#") Gå till listan
 
             ul.site-nav
-                li: a.site-nav-link(href="#", data-scroll="top") Hamburgare
-                li: a.site-nav-link(href="#") Sushi
-                li: a.site-nav-link(href="#") Kebab
-                li: a.site-nav-link(href="#") Sydostasiatiska
-                li: a.site-nav-link(href="#") Falafel
-                li: a.site-nav-link(href="#") Ramen
-                li: a.site-nav-link(href="#") Pizza
-                li: a.site-nav-link(href="#") Vegetariska
+                li: a.site-nav-link(href="#burger", data-scroll="burger") Hamburgare
+                li: a.site-nav-link(href="#sushi", data-scroll="sushi") Sushi
+                li: a.site-nav-link(href="#kebab", data-scroll="kebab") Kebab
+                li: a.site-nav-link(href="#taco", data-scroll="taco") Taco
+                li: a.site-nav-link(href="#falafel", data-scroll="falafel") Falafel
+                li: a.site-nav-link(href="#ramen", data-scroll="ramen") Ramen
                 li: a.site-nav-link.toggle-mobile(href="#") Visa kategorier
 
         block content
 
-        script(src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
-        script(src="/js/app.js")
+        footer.site-footer
+            .row
+                .col-1
+                .col-5
+                    h2 En okomplicerad guide för specifika tillfällen.
+                .col-5
+                    p
+                        | Sidan är skapad av två webbdesigners som också råkar ha ett brinnande matintresse.
+                        | Nya kategorier och vinnare läggs löpande till i listan.
+
+            .copyright
+                .row.no-margin-bottom
+                    .col-1
+                    .col-5
+                        p.small.no-margin-bottom
+                            | Tycker du att vi har helt fel får du gärna höra av dig och förklara varför.
+                            | Du når oss bäst på hej@stockholmsbasta.se
+                    .col-5.text-right
+                        img(src="img/logo.svg", width="150px")
+
+        script(src="./js/app.js")

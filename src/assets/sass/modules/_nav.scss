@@ -22,6 +22,7 @@
         &.fixed {
             position: fixed;
             top: 0;
+            z-index: 10;
         }
     }
 
@@ -48,7 +49,12 @@ a.site-nav-link {
     }
 }
 
-.site-nav-link--active, .site-nav-link:hover {
+a.toggle-mobile--open {
+    background: lighten($black, 5%);
+    color: $white;
+}
+
+a.site-nav-link--active, a.site-nav-link:hover {
     background: lighten($black, 5%);
     color: $white;
 }

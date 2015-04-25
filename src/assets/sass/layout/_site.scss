@@ -1,0 +1,90 @@
+//
+// SITE
+//
+
+
+// -------------------------------------------------------------
+// # Site layout
+// -------------------------------------------------------------
+
+// Use a site wrapper?
+// In that case remove width declarations on .row
+
+// .site {
+//     width: $site-width;
+//     max-width: $site-max-width;
+//     @extend .center;
+// }
+
+.row {
+    width: $site-width;
+    max-width: $site-max-width;
+    @extend .center;
+    margin-bottom: $margin;
+    @include clearfix;
+}
+
+
+// -------------------------------------------------------------
+// # Category sections
+// -------------------------------------------------------------
+
+.category {
+    background: $grey;
+    padding: 5rem 0 2rem;
+
+    &:nth-child(even) { background: $white; }
+
+    img { display: block }
+
+    @include bp(medium) { padding: 13rem 0 10rem; }
+}
+
+.image-wrap {
+    position: relative;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    background: $black;
+    font-size: 12px;
+    padding: 2px 10px;
+
+    a { color: $white; }
+}
+
+.quick-facts {
+    margin-top: -$margin;
+    padding: $padding $padding $padding/2;
+    margin-bottom: $margin;
+
+    @include bp(medium-down) { background: $white; }
+
+    @include bp(medium) {
+        margin-top: 0;
+        padding: 0;
+        margin-bottom: 0;
+        background: none;
+    }
+}
+
+@include bp(medium-down) {
+    .category:nth-child(even) .quick-facts { background: $grey; }
+}
+
+.quick-facts-icon {
+    display: inline-block;
+    width: 10%;
+    vertical-align: top;
+    line-height: 1.1;
+}
+
+.quick-facts-item {
+    display: inline-block;
+    width: 90%;
+    vertical-align: top;
+    line-height: 1.1;
+}

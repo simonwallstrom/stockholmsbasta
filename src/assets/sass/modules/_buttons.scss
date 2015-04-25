@@ -5,17 +5,18 @@
 
 .btn {
     display: inline-block;
-    padding: 1.8rem 4rem 1.5rem;
+    padding: 1rem 2rem .7rem;
     font-weight: 600;
     font-size: 1.6rem;
     border-radius: 2px;
+
+    @include bp(medium) { padding: 1.8rem 4rem 1.5rem; }
 }
 
 .btn--primary {
     background: $accent;
     color: $black;
 
-    &:hover {
-        background: darken($accent, 12%);
-    }
+    &:hover { background: darken($accent, 12%); }
+    &:visited { color: $black; }
 }

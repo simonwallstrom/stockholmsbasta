@@ -14,7 +14,7 @@ h4, .h4,
 h5, .h5 {
     font-weight: $bold;
     margin-bottom: $font-size;
-    margin-top: $font-size;
+    margin-top: 0;
     line-height: 1.3;
 }
 
@@ -55,9 +55,9 @@ p {
 
 a {
     text-decoration: none;
-    color: $black;
+    color: #907824;
 
-    &:visited { color: inherit; }
+    &:visited { color: #907824; }
 }
 
 
@@ -65,15 +65,11 @@ a {
 // # Classes
 // -------------------------------------------------------------
 
-.serif {
-    font-family: $serif;
-    font-weight: $regular;
-}
-
 .category-title {
     font-size: 1.2rem;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
+    font-weight: $bold;
     color: lighten($black, 30%);
 }
 

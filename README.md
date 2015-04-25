@@ -1,15 +1,16 @@
-# Gulp boilerplate
+# Stockholms bästa
 
-A basic boilerplate to start quickly on a static site.
+The best restaurants in Stockholm based on selected categories. [stockholmsbasta.se](http://www.stockholmsbasta.se)
 
-## Features
+## Installation
 
-- Gulp
-- Sass
-- Autoprefixr
-- Jade for templating
+- Clone repo
+- run `npm install`
+- run `gulp`
+- open localhost:3000
 
-## Get started
+## Todo
 
-1. cd to project and run `npm install`
-2. Then run `gulp` to compile and start server
+- Browser testing
+- Add more categories
+- Device testing
