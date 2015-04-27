@@ -196,6 +196,16 @@ gulp.task('watch', ['browserSync'], function(callback) {
 
 
 // -------------------------------------------------------------
+// # Copy CNAME
+// -------------------------------------------------------------
+
+gulp.task('copy', function() {
+    gulp.src('./CNAME')
+    .pipe(gulp.dest('build'));
+});
+
+
+// -------------------------------------------------------------
 // # Clean
 // -------------------------------------------------------------
 
@@ -225,7 +235,8 @@ gulp.task('default', ['clean'], function (cb) {
         'js',
         'img',
         'browserSync',
-        'watch'
+        'watch',
+        'copy'
     ], cb);
 });
 
@@ -241,6 +252,7 @@ gulp.task('prod', ['clean'], function (cb) {
         'jsProd',
         'img',
         'browserSync',
+        'copy',
         'report'
     ], function() {
         console.log(cb);
