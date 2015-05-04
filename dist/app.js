@@ -9310,6 +9310,23 @@ return jQuery;
 
     }
 
+    // -------------------------------------------------------------
+    // # Animated scroll to list
+    // -------------------------------------------------------------
+
+    $('.scroll-to-list').on('click', function() {
+
+            var scrollAnchor = $(this).attr('data-scroll'),
+                scrollPoint = $('section[data-anchor="' + scrollAnchor + '"]').offset().top;
+
+            $('body,html').animate({
+                scrollTop: scrollPoint
+            }, 500);
+
+            return false;
+
+        });
+
 
     // -------------------------------------------------------------
     // # Toggle mobile nav
